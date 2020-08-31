@@ -1,0 +1,190 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  min-height: 7vh;
+  width: 100%;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: white;
+}
+
+.brand-name {
+  text-align: center;
+  cursor: pointer;
+}
+
+#mock-brand-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+}
+
+#test-brand-name {
+  font-size: 1.5rem;
+  color: rgb(175, 0, 0);
+  font-weight: 500;
+}
+
+#test-brand-name::after {
+  content: "|";
+  margin-left: 10px;
+}
+
+.nav-links {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: rgb(190, 190, 190);
+}
+
+.burger div {
+  width: 24px;
+  height: 2.8px;
+  background-color: black;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 93vh;
+    top: 7vh;
+    background: rgb(28, 28, 28);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+  }
+  .nav-links a {
+    color: white;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.nav-links.active {
+  transform: translateX(0%);
+}
+
+@keyframes navLink {
+  form {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.onClicked .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.onClicked .line2 {
+  opacity: 0;
+}
+
+.onClicked .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.overlay-image {
+  height: 93vh;
+  width: 100%;
+  position: relative;
+}
+
+.overlay-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.message-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.overlay-image h2 {
+  color: white;
+  text-align: center;
+}
+
+.overlay-image button {
+  border: none;
+  background: rgb(230, 230, 55);
+  padding: 11px 21px;
+  font-weight: 600;
+  margin-top: 2em;
+}
+
+.overlay-image::after {
+  content: "";
+  background: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
