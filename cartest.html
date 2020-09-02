@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./cartest.css" />
+    <script src="./cartest.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="beginning hide">
+        <button class="start-btn">Start</button>
+        <button class="history-btn">History</button>
+      </div>
+
+      <div class="container">
+        <div class="question-box">
+          <div class="question"></div>
+              <h4>How many questions</h4>
+              <img src="./img/trucks-use-IoT.jpg" alt="">
+          </div>
+          <div class="answer-buttons">
+            <form action="">
+              <input type="radio" id="1" name="question1" value="50" />
+              <label for="1">50</label>
+              <input type="radio" id="2" name="question1" value="100" />
+              <label for="2">100</label>
+              <input type="radio" id="3" name="question1" value="150" />
+              <label for="3">150</label>
+              <input type="radio" id="4" name="question1" value="200" />
+              <label for="4">200</label>
+            </form>
+          </div>
+        </div>
+        <div class="control-buttons">
+          <button class="next-btn">Previous</button>
+          <span id="current-question">0</span>
+          <button class="next-btn">Next</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

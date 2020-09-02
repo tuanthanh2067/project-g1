@@ -8,10 +8,15 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: rgb(245, 245, 245);
 }
 
 button {
   font-family: "Montserrat", sans-serif;
+}
+
+i {
+  pointer-events: none;
 }
 
 .nav {
@@ -24,6 +29,7 @@ button {
   top: 0;
   left: 0;
   background: white;
+  z-index: 10;
 }
 
 .brand-name {
@@ -64,7 +70,7 @@ button {
 }
 
 .nav-links a:hover {
-  color: rgb(190, 190, 190);
+  color: rgb(235, 0, 0);
 }
 
 .burger div {
@@ -77,41 +83,6 @@ button {
 
 .burger {
   display: none;
-}
-
-@media screen and (max-width: 1024px) {
-  .nav-links {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  body {
-    overflow-x: hidden;
-  }
-  .nav-links {
-    position: absolute;
-    right: 0px;
-    height: 93vh;
-    top: 7vh;
-    background: rgb(28, 28, 28);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    transform: translateX(100%);
-    transition: transform 0.4s ease-in-out;
-  }
-  .nav-links a {
-    color: white;
-  }
-  .nav-links li {
-    opacity: 0;
-  }
-  .burger {
-    display: block;
-    cursor: pointer;
-  }
 }
 
 .nav-links.active {
@@ -176,6 +147,7 @@ button {
   padding: 11px 21px;
   font-weight: 600;
   margin-top: 2em;
+  cursor: pointer;
 }
 
 .overlay-image::after {
@@ -186,5 +158,251 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.9;
+  opacity: 0.75;
+}
+
+.main {
+  max-width: 1200px;
+  min-height: 10em;
+  margin: 4em auto;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 .vehicles {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item1 .vehicles i {
+  font-size: 8rem;
+  color: rgb(31, 33, 63);
+}
+
+.support-vehicles {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-top: 0.65em;
+  position: relative;
+}
+
+.support-vehicles::before {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
+  width: 14em;
+  height: 0.12em;
+  background: black;
+  z-index: -1;
+}
+
+.vehicles-desc {
+  width: 70%;
+  text-align: center;
+  font-weight: normal;
+}
+
+.item2 div {
+  display: flex;
+}
+
+.table {
+  margin: 5em 0em;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.table img {
+  width: 200px;
+  margin: 0em 3em 0em 0em;
+}
+
+.table h3 {
+  font-size: 1.75rem;
+}
+
+.footer {
+  background-color: black;
+  min-height: 200px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.904);
+}
+
+.footer .container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+.top .col1 {
+  width: 50%;
+}
+
+.top .col2 {
+  width: 25%;
+}
+
+.col1 p {
+  margin-top: 0.15em;
+  opacity: 0.65;
+  font-size: 0.95rem;
+}
+
+.col2 ul {
+  list-style: none;
+  margin-top: 0.15em;
+}
+
+.col2 ul a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.65;
+  font-size: 0.95rem;
+}
+
+.col2 ul a:hover {
+  color: red;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 2em;
+  justify-content: center;
+}
+
+.icons button {
+  padding: 13px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  background: rgb(51, 51, 51);
+  color: white;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.icons button:hover {
+  background: white;
+  color: rgb(51, 51, 51);
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+  .item1 .vehicles i {
+    font-size: 6rem;
+  }
+  .support-vehicles {
+    font-size: 1.6rem;
+  }
+  .vehicles-desc {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 93vh;
+    top: 7vh;
+    background: rgb(28, 28, 28);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+  }
+  .nav-links a {
+    color: white;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+  .item1 .vehicles i {
+    font-size: 5rem;
+  }
+  .support-vehicles {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .vehicles-desc {
+    font-size: 0.95rem;
+  }
+  .table h3 {
+    font-size: 1.45rem;
+  }
+  .col1 p,
+  .col2 ul a {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 651px) {
+  .item1 .vehicles i {
+    font-size: 3rem;
+  }
+  .support-vehicles {
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  .support-vehicles::before {
+    display: none;
+  }
+  .vehicles-desc {
+    font-size: 0.8rem;
+  }
+  .table h3 {
+    font-size: 1.125rem;
+  }
+  .table img {
+    width: 140px;
+    margin: 0em 1.75em 0em 0em;
+  }
+  .table p {
+    font-size: 0.8rem;
+  }
+  .col1 p,
+  .col2 ul a {
+    font-size: 0.7rem;
+  }
 }

@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(245, 245, 245);
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+i {
+  pointer-events: none;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  pointer-events: none;
+  display: none;
+}
+
+.start-btn,
+.history-btn {
+  padding: 20px 55px;
+  font-size: 1.75rem;
+  border-radius: 12.5px;
+  outline: none;
+  cursor: pointer;
+  background: rgb(31, 33, 63);
+  border: none;
+  color: white;
+  margin-right: 0.75em;
+}
+
+.start-btn:hover,
+.history-btn:hover {
+  color: rgb(31, 33, 63);
+  background: white;
+  border: 1px solid black;
+}
