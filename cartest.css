@@ -61,12 +61,9 @@ i {
   margin-left: 10px;
 }
 
-.beginning.hide {
-  pointer-events: none;
-  display: none;
-}
-
-.container.hide {
+.beginning.hide,
+.container.hide,
+.control-buttons.hide {
   pointer-events: none;
   display: none;
 }

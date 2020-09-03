@@ -1,14 +1,26 @@
 const startButton = document.querySelector(".start-btn");
 const beginning = document.querySelector(".beginning");
 const container = document.querySelector(".container");
-const previousButton = document.querySelector("previous-btn");
-const nextButton = document.querySelector("next-btn");
+const previousButton = document.querySelector(".previous-btn");
+const nextButton = document.querySelector(".next-btn");
+const numOfCurrent = document.querySelector("#current-question");
+const controlButtons = document.querySelector(".control-buttons");
 
 startButton.addEventListener("click", () => {
   start();
 });
 
+nextButton.addEventListener("click", () => {
+  nextFunction();
+});
+
+previousButton.addEventListener("click", () => {
+  previousFunction();
+});
+
 let allQuestions;
+let currentQuestion = 1;
+let arrayOfNumbers;
 
 const fetchData = async () => {
   try {
@@ -118,9 +130,16 @@ const displayQuestion = (num, current) => {
 const start = () => {
   beginning.classList.add("hide");
   container.classList.remove("hide");
-  const arrayOfNumbers = generateArrayOfNumbers();
-  let currentQuestion = 1;
+  controlButtons.classList.remove("hide");
+  arrayOfNumbers = generateArrayOfNumbers();
   displayQuestion(arrayOfNumbers[0], currentQuestion);
+};
+
+const nextFunction = () => {
+  currentQuestion++;
+  console.log(currentQuestion);
+  displayQuestion(arrayOfNumbers[currentQuestion - 1], currentQuestion);
+  numOfCurrent.innerText = currentQuestion;
 };
 
 const app = () => {
