@@ -13,6 +13,13 @@
   </head>
   <body>
     <div class="main">
+      <div class="header">
+        <div class="brand-name">
+          <span id="mock-brand-name">Mock</span>
+          <span id="test-brand-name">Test</span>
+        </div>
+      </div>
+
       <div class="beginning hide">
         <button class="start-btn">Start</button>
         <button class="history-btn">History</button>
@@ -20,28 +27,38 @@
 
       <div class="container">
         <div class="question-box">
-          <div class="question"></div>
-              <h4>How many questions</h4>
-              <img src="./img/trucks-use-IoT.jpg" alt="">
+          <div class="question">
+            <div class="question-number">1.</div>
+            <h4>How many cars?</h4>
           </div>
-          <div class="answer-buttons">
-            <form action="">
+          <img class="question-img" src="./img/trucks-use-IoT.jpg" alt="" />
+        </div>
+        <div class="answer-buttons">
+          <form action="">
+            <div class="row">
               <input type="radio" id="1" name="question1" value="50" />
               <label for="1">50</label>
+            </div>
+            <div class="row">
               <input type="radio" id="2" name="question1" value="100" />
               <label for="2">100</label>
+            </div>
+            <div class="row">
               <input type="radio" id="3" name="question1" value="150" />
               <label for="3">150</label>
+            </div>
+            <div class="row">
               <input type="radio" id="4" name="question1" value="200" />
               <label for="4">200</label>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
-        <div class="control-buttons">
-          <button class="next-btn">Previous</button>
-          <span id="current-question">0</span>
-          <button class="next-btn">Next</button>
-        </div>
+      </div>
+
+      <div class="control-buttons">
+        <button class="next-btn">Previous</button>
+        <span id="current-question">0</span>
+        <button class="next-btn">Next</button>
       </div>
     </div>
   </body>
