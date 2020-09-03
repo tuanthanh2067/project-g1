@@ -1,0 +1,578 @@
+[
+  {
+    "question": "",
+    "image": "../quiz-images/0.jpg",
+    "number": 0,
+    "answers": [
+      {
+        "text": "Road slippery when wet",
+        "id": 1
+      },
+      {
+        "text": "No right turn permitted",
+        "id": 2
+      },
+      {
+        "text": "No left turn permitted",
+        "id": 3
+      },
+      {
+        "text": "You must not make a U turn",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/1.jpg",
+    "number": 1,
+    "answers": [
+      {
+        "text": "Hidden intersection ahead",
+        "id": 1
+      },
+      {
+        "text": "Winding road",
+        "id": 2
+      },
+      {
+        "text": "Road slippery when wet",
+        "id": 3
+      },
+      {
+        "text": "Narrow road ahead",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/2.jpg",
+    "number": 2,
+    "answers": [
+      {
+        "text": "No entry into the intersection",
+        "id": 1
+      },
+      {
+        "text": "This sign means no stopping",
+        "id": 2
+      },
+      {
+        "text": "Vehicles approaching from angle shown, must stop",
+        "id": 3
+      },
+      {
+        "text": "Need not stop for stop signs in direction of arrows",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/3.jpg",
+    "number": 3,
+    "answers": [
+      {
+        "text": "Traffic signal ahead",
+        "id": 1
+      },
+      {
+        "text": "Stop sign 150 meters (500 feet) ahead",
+        "id": 2
+      },
+      {
+        "text": "Bump 120 meters (400 feet) ahead",
+        "id": 3
+      },
+      {
+        "text": "Railway crossing ahead",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/4.jpg",
+    "number": 4,
+    "answers": [
+      {
+        "text": "Winding road ahead",
+        "id": 1
+      },
+      {
+        "text": "Bumpy road ahead",
+        "id": 2
+      },
+      {
+        "text": "Road ahead slippery when wet",
+        "id": 3
+      },
+      {
+        "text": "No passing ahead",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/5.jpg",
+    "number": 5,
+    "answers": [
+      {
+        "text": "Playground zone sign",
+        "id": 1
+      },
+      {
+        "text": "Children playing in residential area",
+        "id": 2
+      },
+      {
+        "text": "School sone sign",
+        "id": 3
+      },
+      {
+        "text": "Direction sign for children",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/6.jpg",
+    "number": 6,
+    "answers": [
+      {
+        "text": "Divided highway ahead",
+        "id": 1
+      },
+      {
+        "text": "You are approaching a one-way street",
+        "id": 2
+      },
+      {
+        "text": "Hidden intersection ahead",
+        "id": 3
+      },
+      {
+        "text": "Pavement narrows",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/7.jpg",
+    "number": 7,
+    "answers": [
+      {
+        "text": "Narrow road head",
+        "id": 1
+      },
+      {
+        "text": "Hidden intersection ahead",
+        "id": 2
+      },
+      {
+        "text": "Railway crossing ahead",
+        "id": 3
+      },
+      {
+        "text": "Intersection ahead",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/8.jpg",
+    "number": 8,
+    "answers": [
+      {
+        "text": "Divided highway ahead",
+        "id": 1
+      },
+      {
+        "text": "Divided road ends, keep to the right",
+        "id": 2
+      },
+      {
+        "text": "Narrow bridge ahead",
+        "id": 3
+      },
+      {
+        "text": "Road under construction",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/9.jpg",
+    "number": 9,
+    "answers": [
+      {
+        "text": "Right lane ends",
+        "id": 1
+      },
+      {
+        "text": "Hidden intersection ahead",
+        "id": 2
+      },
+      {
+        "text": "You are approaching steep hill",
+        "id": 3
+      },
+      {
+        "text": "Passing is not allowed",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/10.jpg",
+    "number": 10,
+    "answers": [
+      {
+        "text": "Narrow road ahead",
+        "id": 1
+      },
+      {
+        "text": "Road ahead turns left then right",
+        "id": 2
+      },
+      {
+        "text": "Road ahead turns right then left",
+        "id": 3
+      },
+      {
+        "text": "Intersection ahead",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/11.jpg",
+    "number": 11,
+    "answers": [
+      {
+        "text": "Stop sign ahead",
+        "id": 1
+      },
+      {
+        "text": "Yield right-of-way",
+        "id": 2
+      },
+      {
+        "text": "Dead end street ahead",
+        "id": 3
+      },
+      {
+        "text": "Slow moving vehicle ahead",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A green circle means:",
+    "image": "../quiz-images/12.jpg",
+    "number": 12,
+    "answers": [
+      {
+        "text": "Truck route",
+        "id": 1
+      },
+      {
+        "text": "NO trucks",
+        "id": 2
+      },
+      {
+        "text": "Route for large trucks",
+        "id": 3
+      },
+      {
+        "text": "Permissive sign",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/13.jpg",
+    "number": 13,
+    "answers": [
+      {
+        "text": "Keep to right",
+        "id": 1
+      },
+      {
+        "text": "Keep to left",
+        "id": 2
+      },
+      {
+        "text": "Keep out (Do not enter)",
+        "id": 3
+      },
+      {
+        "text": "Do not pass",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/14.jpg",
+    "number": 14,
+    "answers": [
+      {
+        "text": "Construction sign-slow down obey flagman's direction",
+        "id": 1
+      },
+      {
+        "text": "A construction sign replacing flagman on duty",
+        "id": 2
+      },
+      {
+        "text": "Regulatory sign-reduce speed",
+        "id": 3
+      },
+      {
+        "text": "This sign warns of road work operation ahead",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/15.jpg",
+    "number": 15,
+    "answers": [
+      {
+        "text": "Policemen at intersection",
+        "id": 1
+      },
+      {
+        "text": "You will get a ticket if you do not obey traffic signal",
+        "id": 2
+      },
+      {
+        "text": "Stop for red light at intersection",
+        "id": 3
+      },
+      {
+        "text": "Red light camera at intersection",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/16.jpg",
+    "number": 16,
+    "answers": [
+      {
+        "text": "Deer regularly cross, be alert for animals",
+        "id": 1
+      },
+      {
+        "text": "Zoo ahead",
+        "id": 2
+      },
+      {
+        "text": "No honking at animals",
+        "id": 3
+      },
+      {
+        "text": "Deers are welcome",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/17.jpg",
+    "number": 17,
+    "answers": [
+      {
+        "text": "Truck entrance on the right side ahead",
+        "id": 1
+      },
+      {
+        "text": "No truck allows",
+        "id": 2
+      },
+      {
+        "text": "Slow down for truck",
+        "id": 3
+      },
+      {
+        "text": "Truck route",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/18.jpg",
+    "number": 18,
+    "answers": [
+      {
+        "text": "No right turn",
+        "id": 1
+      },
+      {
+        "text": "Divided highway ends",
+        "id": 2
+      },
+      {
+        "text": "Narrow bridge ahead",
+        "id": 3
+      },
+      {
+        "text": "No right turn on red",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/19.jpg",
+    "number": 19,
+    "answers": [
+      {
+        "text": "You may exit if you remain in right hand lane",
+        "id": 1
+      },
+      {
+        "text": "You must not drive in right hand lane under any circumstances",
+        "id": 2
+      },
+      {
+        "text": "End of highway, you must move into right hand lane",
+        "id": 3
+      },
+      {
+        "text": "Tow-way left turn lane",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/20.jpg",
+    "number": 20,
+    "answers": [
+      {
+        "text": "X-intersection for school vehicles",
+        "id": 1
+      },
+      {
+        "text": "School crosswalk sign",
+        "id": 2
+      },
+      {
+        "text": "Caution-school bus crossing",
+        "id": 3
+      },
+      {
+        "text": "Regulatory sign",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/21.jpg",
+    "number": 21,
+    "answers": [
+      {
+        "text": "School area ahead",
+        "id": 1
+      },
+      {
+        "text": "Railway crossing ahead",
+        "id": 2
+      },
+      {
+        "text": "You must give the right-of-way",
+        "id": 3
+      },
+      {
+        "text": "You have the right of way",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/22.jpg",
+    "number": 22,
+    "answers": [
+      {
+        "text": "Stop sign 150 meters (500 feet) ahead",
+        "id": 1
+      },
+      {
+        "text": "Bump 120 meters (400 feet) ahead",
+        "id": 2
+      },
+      {
+        "text": "Stop at all times",
+        "id": 3
+      },
+      {
+        "text": "Stop only if other vehicles are approaching",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/23.jpg",
+    "number": 23,
+    "answers": [
+      {
+        "text": "You must make a right turn only",
+        "id": 1
+      },
+      {
+        "text": "You must not make a left turn",
+        "id": 2
+      },
+      {
+        "text": "Hidden intersection ahead",
+        "id": 3
+      },
+      {
+        "text": "You are approaching a traffic island",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  }
+]

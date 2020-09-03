@@ -61,7 +61,12 @@ i {
   margin-left: 10px;
 }
 
-.hide {
+.beginning.hide {
+  pointer-events: none;
+  display: none;
+}
+
+.container.hide {
   pointer-events: none;
   display: none;
 }
@@ -175,4 +180,23 @@ i {
   margin-left: 1.25em;
   margin-right: 1.25em;
   font-size: 1.5rem;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+  .question-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+  .question-img {
+    width: 130px;
+    height: 130px;
+  }
 }
