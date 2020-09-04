@@ -288,7 +288,7 @@
     "correct": 1
   },
   {
-    "question": "A green circle means:",
+    "question": "",
     "image": "../quiz-images/12.jpg",
     "number": 12,
     "answers": [
@@ -574,5 +574,1277 @@
       }
     ],
     "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/24.jpg",
+    "number": 24,
+    "answers": [
+      {
+        "text": "No Bicycles allowed",
+        "id": 1
+      },
+      {
+        "text": "Do not drive through",
+        "id": 2
+      },
+      {
+        "text": "Bicycle route",
+        "id": 3
+      },
+      {
+        "text": "No parking",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/25.jpg",
+    "number": 25,
+    "answers": [
+      {
+        "text": "Snowmobiles may not use this road",
+        "id": 1
+      },
+      {
+        "text": "Snowmobile parking only",
+        "id": 2
+      },
+      {
+        "text": "Snowmobiles may use this road",
+        "id": 3
+      },
+      {
+        "text": "Snowmobile repair shop ahead",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/26.jpg",
+    "number": 26,
+    "answers": [
+      {
+        "text": "You may park in the designated area during the posted times",
+        "id": 1
+      },
+      {
+        "text": "You may not park between the signs during the posted times",
+        "id": 2
+      },
+      {
+        "text": "No parking",
+        "id": 3
+      },
+      {
+        "text": "Weekend parking only",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/27.jpg",
+    "number": 27,
+    "answers": [
+      {
+        "text": "Bicycles are allowed on this road",
+        "id": 1
+      },
+      {
+        "text": "No bicycles allowed on this road",
+        "id": 2
+      },
+      {
+        "text": "No parking",
+        "id": 3
+      },
+      {
+        "text": "No stopping",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/28.jpg",
+    "number": 28,
+    "answers": [
+      {
+        "text": "Care for pedestrian",
+        "id": 1
+      },
+      {
+        "text": "Watch for traffic signal",
+        "id": 2
+      },
+      {
+        "text": "Do not block intersection",
+        "id": 3
+      },
+      {
+        "text": "Do not slow down",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/29.jpg",
+    "number": 29,
+    "answers": [
+      {
+        "text": "This lane is reserved for specific types of vehicles during certain times and days such as buses, taxis, bicycles and vehicles with more than three passengers",
+        "id": 1
+      },
+      {
+        "text": "No buses allowed on the specified lane during times and days posted",
+        "id": 2
+      },
+      {
+        "text": "No stopping during the times and days posted",
+        "id": 3
+      },
+      {
+        "text": "Do not enter between the times and days posted",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/30.jpg",
+    "number": 30,
+    "answers": [
+      {
+        "text": "Intersection ahead",
+        "id": 1
+      },
+      {
+        "text": "Narrow bridge ahead",
+        "id": 2
+      },
+      {
+        "text": "Paved surface ends ahead",
+        "id": 3
+      },
+      {
+        "text": "The road ahead is split",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/31.jpg",
+    "number": 31,
+    "answers": [
+      {
+        "text": "Keep to the right of the traffic island",
+        "id": 1
+      },
+      {
+        "text": "Road turns right then left",
+        "id": 2
+      },
+      {
+        "text": "Winding road ahead",
+        "id": 3
+      },
+      {
+        "text": "Pass other traffic on the right",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/32.jpg",
+    "number": 32,
+    "answers": [
+      {
+        "text": "Destination board",
+        "id": 1
+      },
+      {
+        "text": "School zone-watch for Children playing",
+        "id": 2
+      },
+      {
+        "text": "Provincial park",
+        "id": 3
+      },
+      {
+        "text": "Pedestrian control sign",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/33.jpg",
+    "number": 33,
+    "answers": [
+      {
+        "text": "Stop sign ahead",
+        "id": 1
+      },
+      {
+        "text": "Yield right of way",
+        "id": 2
+      },
+      {
+        "text": "Dead end street ahead",
+        "id": 3
+      },
+      {
+        "text": "Slow moving vehicle",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/34.jpg",
+    "number": 34,
+    "answers": [
+      {
+        "text": "Going straight is allowed",
+        "id": 1
+      },
+      {
+        "text": "No right turn",
+        "id": 2
+      },
+      {
+        "text": "No left turn",
+        "id": 3
+      },
+      {
+        "text": "Do not drive straight through the intersection",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/35.jpg",
+    "number": 35,
+    "answers": [
+      {
+        "text": "Parking is only for vehicles displaying a valid disabled person parking permit",
+        "id": 1
+      },
+      {
+        "text": " No parking",
+        "id": 2
+      },
+      {
+        "text": "No standing",
+        "id": 3
+      },
+      {
+        "text": "Parking is not allowed for a disable person with a permit",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/36.jpg",
+    "number": 36,
+    "answers": [
+      {
+        "text": "No bicycles",
+        "id": 1
+      },
+      {
+        "text": "No pedestrians allowed",
+        "id": 2
+      },
+      {
+        "text": "No children allowed",
+        "id": 3
+      },
+      {
+        "text": "Dogs only",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/37.jpg",
+    "number": 37,
+    "answers": [
+      {
+        "text": "Only for picking up and dropping off passengers if you have a disabled persons permit",
+        "id": 1
+      },
+      {
+        "text": "Standing area for disabled persons only",
+        "id": 2
+      },
+      {
+        "text": "No parking",
+        "id": 3
+      },
+      {
+        "text": "Parking is permitted",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/38.jpg",
+    "number": 38,
+    "answers": [
+      {
+        "text": "School area",
+        "id": 1
+      },
+      {
+        "text": "Bumpy road",
+        "id": 2
+      },
+      {
+        "text": "Do not stand or stop in this area",
+        "id": 3
+      },
+      {
+        "text": "No bicycles allowed on this road",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/39.jpg",
+    "number": 39,
+    "answers": [
+      {
+        "text": "This lane is for buses only",
+        "id": 1
+      },
+      {
+        "text": "This lane is for trucks only",
+        "id": 2
+      },
+      {
+        "text": "This lane is not for bicycles",
+        "id": 3
+      },
+      {
+        "text": "This lane is for bicycles only",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/40.jpg",
+    "number": 40,
+    "answers": [
+      {
+        "text": "Keep to the right lane except when passing (for climbing lanes)",
+        "id": 1
+      },
+      {
+        "text": "Keep right if you want to park",
+        "id": 2
+      },
+      {
+        "text": "No U-turns",
+        "id": 3
+      },
+      {
+        "text": "For right turns",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/41.jpg",
+    "number": 41,
+    "answers": [
+      {
+        "text": "No left turns",
+        "id": 1
+      },
+      {
+        "text": "Merging traffic ahead",
+        "id": 2
+      },
+      {
+        "text": "Road branching off ahead",
+        "id": 3
+      },
+      {
+        "text": "Hidden intersection",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/26.jpg",
+    "number": 42,
+    "answers": [
+      {
+        "text": "No U-turns",
+        "id": 1
+      },
+      {
+        "text": "No left turns",
+        "id": 2
+      },
+      {
+        "text": "Right turn ahead",
+        "id": 3
+      },
+      {
+        "text": "The side-road at the intersection ahead does not have a clear view of traffic",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/43.jpg",
+    "number": 43,
+    "answers": [
+      {
+        "text": "Do not enter roadway",
+        "id": 1
+      },
+      {
+        "text": "Do not enter unless local traffic",
+        "id": 2
+      },
+      {
+        "text": "A traffic circle ahead",
+        "id": 3
+      },
+      {
+        "text": "Prohibited sign",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/44.jpg",
+    "number": 44,
+    "answers": [
+      {
+        "text": "Merge with traffic, two roads are equally responsible",
+        "id": 1
+      },
+      {
+        "text": "Hidden intersection",
+        "id": 2
+      },
+      {
+        "text": "No U-turns",
+        "id": 3
+      },
+      {
+        "text": "No left turns",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/45.jpg",
+    "number": 45,
+    "answers": [
+      {
+        "text": "Paved surface ends ahead",
+        "id": 1
+      },
+      {
+        "text": "Watch for palling rocks",
+        "id": 2
+      },
+      {
+        "text": "School zone sign",
+        "id": 3
+      },
+      {
+        "text": "Do not block intersection",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/46.jpg",
+    "number": 46,
+    "answers": [
+      {
+        "text": "Bicycles are not allowed",
+        "id": 1
+      },
+      {
+        "text": "Bicycle crossing ahead",
+        "id": 2
+      },
+      {
+        "text": "No parking",
+        "id": 3
+      },
+      {
+        "text": "No left turns",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/47.jpg",
+    "number": 47,
+    "answers": [
+      {
+        "text": "Safety check ahead",
+        "id": 1
+      },
+      {
+        "text": "Warns of a steep hill ahead",
+        "id": 2
+      },
+      {
+        "text": "Pavement ends, 500 feet ahead",
+        "id": 3
+      },
+      {
+        "text": "Bumpy road ahead",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/48.jpg",
+    "number": 48,
+    "answers": [
+      {
+        "text": "Right lane ends",
+        "id": 1
+      },
+      {
+        "text": "Hidden intersection ahead",
+        "id": 2
+      },
+      {
+        "text": "You are approaching a steep hill",
+        "id": 3
+      },
+      {
+        "text": "No parking",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/49.jpg",
+    "number": 49,
+    "answers": [
+      {
+        "text": "Winding road ahead",
+        "id": 1
+      },
+      {
+        "text": "Keep to left",
+        "id": 2
+      },
+      {
+        "text": "Danger, road ends",
+        "id": 3
+      },
+      {
+        "text": "Danger, sharp turn",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/50.jpg",
+    "number": 50,
+    "answers": [
+      {
+        "text": "You are approaching a four-way intersection",
+        "id": 1
+      },
+      {
+        "text": "You are approaching a railroad crossing",
+        "id": 2
+      },
+      {
+        "text": "You are approaching a hospital zone",
+        "id": 3
+      },
+      {
+        "text": "You are approaching a pedestrian crosswalk",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/51.jpg",
+    "number": 51,
+    "answers": [
+      {
+        "text": "Maximum speed of 50km (30 miles) per hour from this gin to the next sign",
+        "id": 1
+      },
+      {
+        "text": "Speed limit for rural school zones",
+        "id": 2
+      },
+      {
+        "text": "End of 50km (30 miles) per hour zone",
+        "id": 3
+      },
+      {
+        "text": "Maximum speed of 50km (30 miles) per hour ahead",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/52.jpg",
+    "number": 52,
+    "answers": [
+      {
+        "text": "I am turning left",
+        "id": 1
+      },
+      {
+        "text": "I am slowing or stopping",
+        "id": 2
+      },
+      {
+        "text": "I am turning right",
+        "id": 3
+      },
+      {
+        "text": "You may pass me",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/53.jpg",
+    "number": 53,
+    "answers": [
+      {
+        "text": "Factory ahead, slow down",
+        "id": 1
+      },
+      {
+        "text": "Bumpy or uneven pavement ahead",
+        "id": 2
+      },
+      {
+        "text": "Construction zone",
+        "id": 3
+      },
+      {
+        "text": "Bridge or viaduct",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/54.jpg",
+    "number": 54,
+    "answers": [
+      {
+        "text": "I am turning right",
+        "id": 1
+      },
+      {
+        "text": "I am turning left",
+        "id": 2
+      },
+      {
+        "text": "I am slowing or stopping",
+        "id": 3
+      },
+      {
+        "text": "You may pass me",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/55.jpg",
+    "number": 55,
+    "answers": [
+      {
+        "text": "You may exit if you remain in right hand lane",
+        "id": 1
+      },
+      {
+        "text": "You must not drive in right hand lane under any circumstances",
+        "id": 2
+      },
+      {
+        "text": "End of highway, you must move into right hand lane",
+        "id": 3
+      },
+      {
+        "text": "You must exit if you remain in right hand lane",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/56.jpg",
+    "number": 56,
+    "answers": [
+      {
+        "text": "Drive with caution",
+        "id": 1
+      },
+      {
+        "text": "Share the road with oncoming traffic",
+        "id": 2
+      },
+      {
+        "text": "Slippery when wet",
+        "id": 3
+      },
+      {
+        "text": "No standing",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/57.jpg",
+    "number": 57,
+    "answers": [
+      {
+        "text": "No trucks allowed",
+        "id": 1
+      },
+      {
+        "text": "Warns of a steep hill ahead",
+        "id": 2
+      },
+      {
+        "text": "Passing is not allowed",
+        "id": 3
+      },
+      {
+        "text": "Watch for falling rocks",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/58.jpg",
+    "number": 58,
+    "answers": [
+      {
+        "text": "Fire hall",
+        "id": 1
+      },
+      {
+        "text": "Do not enter",
+        "id": 2
+      },
+      {
+        "text": "There may be water flowing over the road",
+        "id": 3
+      },
+      {
+        "text": "Construction zone",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/59.jpg",
+    "number": 59,
+    "answers": [
+      {
+        "text": "A hidden school bus stop ahead, slow down, drive with extra caution, watch for children and school buses with flashing red lights",
+        "id": 1
+      },
+      {
+        "text": "Hidden intersection",
+        "id": 2
+      },
+      {
+        "text": "School zone",
+        "id": 3
+      },
+      {
+        "text": "School with play ground",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/60.jpg",
+    "number": 60,
+    "answers": [
+      {
+        "text": "Bumpy road ahead",
+        "id": 1
+      },
+      {
+        "text": "Sign shows the maximum truck clearance height",
+        "id": 2
+      },
+      {
+        "text": "School zone ahead",
+        "id": 3
+      },
+      {
+        "text": "Watch for falling rocks",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/61.jpg",
+    "number": 61,
+    "answers": [
+      {
+        "text": "Snowmobile repair shop ahead",
+        "id": 1
+      },
+      {
+        "text": "Snowmobile parking",
+        "id": 2
+      },
+      {
+        "text": "Snowmobiles cross this road",
+        "id": 3
+      },
+      {
+        "text": "Snowmobiles not allowed",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/62.jpg",
+    "number": 62,
+    "answers": [
+      {
+        "text": "Do not pass any vehicles within 30 meters of a pedestrian crossing",
+        "id": 1
+      },
+      {
+        "text": "School zone",
+        "id": 2
+      },
+      {
+        "text": "Uneven pavement ahead",
+        "id": 3
+      },
+      {
+        "text": "Construction zone",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/63.jpg",
+    "number": 63,
+    "answers": [
+      {
+        "text": "Watch for disabled persons",
+        "id": 1
+      },
+      {
+        "text": "Passing is not allowed",
+        "id": 2
+      },
+      {
+        "text": "Wheel chair crossing",
+        "id": 3
+      },
+      {
+        "text": "A school crossing ahead, follow the directions of the crossing guard or school safety patroller",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/64.jpg",
+    "number": 64,
+    "answers": [
+      {
+        "text": "When a school bus arm swings out with red lights flashing, you must stop and you are prohibited from passing",
+        "id": 1
+      },
+      {
+        "text": "Construction sign",
+        "id": 2
+      },
+      {
+        "text": "School zone",
+        "id": 3
+      },
+      {
+        "text": "Stop sign ahead",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/65.jpg",
+    "number": 65,
+    "answers": [
+      {
+        "text": "It is a warning sign",
+        "id": 1
+      },
+      {
+        "text": "During school hours when the yellow lights are flashing, follow the speed limit shown",
+        "id": 2
+      },
+      {
+        "text": "Watch for cross guard only",
+        "id": 3
+      },
+      {
+        "text": "Watch for children only",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/66.jpg",
+    "number": 66,
+    "answers": [
+      {
+        "text": "Highway with two express lanes",
+        "id": 1
+      },
+      {
+        "text": "The two lanes ahead are closed",
+        "id": 2
+      },
+      {
+        "text": "Two or more passengers must be in the vehicles to use this lane on the highway",
+        "id": 3
+      },
+      {
+        "text": "Two lanes will merge into one",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/67.jpg",
+    "number": 67,
+    "answers": [
+      {
+        "text": "Hazard, the downward line indicates the side on which you may safely pass",
+        "id": 1
+      },
+      {
+        "text": "Hazard, the downward line indicates the side on which you may not safely pass",
+        "id": 2
+      },
+      {
+        "text": "Shopping ahead",
+        "id": 3
+      },
+      {
+        "text": "Rest area ahead",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/68.jpg",
+    "number": 68,
+    "answers": [
+      {
+        "text": "Winding road ahead",
+        "id": 1
+      },
+      {
+        "text": "By wheel-chair only or disabled person parking (handicap)",
+        "id": 2
+      },
+      {
+        "text": "No parking",
+        "id": 3
+      },
+      {
+        "text": "No standing",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/69.jpg",
+    "number": 69,
+    "answers": [
+      {
+        "text": "Twp separate roads by median ahead",
+        "id": 1
+      },
+      {
+        "text": "Divided highway ends",
+        "id": 2
+      },
+      {
+        "text": "Narrow bridge ahead",
+        "id": 3
+      },
+      {
+        "text": "Road under construction",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/70.jpg",
+    "number": 70,
+    "answers": [
+      {
+        "text": "Lane usage sign permitting all turns including left",
+        "id": 1
+      },
+      {
+        "text": "No parking from arrows to corner",
+        "id": 2
+      },
+      {
+        "text": "Advance warning of danger",
+        "id": 3
+      },
+      {
+        "text": "Lane usage sign meaning right turn only",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/71.jpg",
+    "number": 71,
+    "answers": [
+      {
+        "text": "I am turning right",
+        "id": 1
+      },
+      {
+        "text": "I am turning left",
+        "id": 2
+      },
+      {
+        "text": "I am slowing or stopping",
+        "id": 3
+      },
+      {
+        "text": "Weekend parking only",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/72.jpg",
+    "number": 72,
+    "answers": [
+      {
+        "text": "Keep distance away",
+        "id": 1
+      },
+      {
+        "text": "New born baby on road",
+        "id": 2
+      },
+      {
+        "text": "New driver",
+        "id": 3
+      },
+      {
+        "text": "New car",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/73.jpg",
+    "number": 73,
+    "answers": [
+      {
+        "text": "Housing",
+        "id": 1
+      },
+      {
+        "text": "Hospital",
+        "id": 2
+      },
+      {
+        "text": "Horse racing",
+        "id": 3
+      },
+      {
+        "text": "Hills",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/74.jpg",
+    "number": 74,
+    "answers": [
+      {
+        "text": "Air show ahead",
+        "id": 1
+      },
+      {
+        "text": "Air plane landing",
+        "id": 2
+      },
+      {
+        "text": "Route to Airport",
+        "id": 3
+      },
+      {
+        "text": "None of the above",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/75.jpg",
+    "number": 75,
+    "answers": [
+      {
+        "text": "No smoking",
+        "id": 1
+      },
+      {
+        "text": "Not more than 3 minutes idling",
+        "id": 2
+      },
+      {
+        "text": "Idling is permitted",
+        "id": 3
+      },
+      {
+        "text": "No stopping more than 3 minutes",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "",
+    "image": "../quiz-images/76.jpg",
+    "number": 76,
+    "answers": [
+      {
+        "text": "The bridge ahead lifts or swings to allow boats to pass",
+        "id": 1
+      },
+      {
+        "text": "Airport",
+        "id": 2
+      },
+      {
+        "text": "Hotel",
+        "id": 3
+      },
+      {
+        "text": "Narrow road ahead",
+        "id": 4
+      }
+    ],
+    "correct": 1
   }
 ]
