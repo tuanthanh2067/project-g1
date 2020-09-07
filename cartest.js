@@ -21,6 +21,7 @@ previousButton.addEventListener("click", () => {
 let allQuestions;
 let currentQuestion = 1;
 let arrayOfNumbers;
+let userAnswers;
 
 const fetchData = async () => {
   try {
@@ -82,7 +83,6 @@ const displayQuestion = (num, current) => {
   // use num as the question number (0 -> 199)
   // use variable allQuestions[num]
   let script;
-  num = 1;
   if (allQuestions[num].question === "") {
     script = `
         <div class="question-box">
@@ -128,6 +128,8 @@ const displayQuestion = (num, current) => {
 };
 
 const start = () => {
+  arrayOfNumbers = [];
+  userAnswers = Array(40).fill(0);
   beginning.classList.add("hide");
   container.classList.remove("hide");
   controlButtons.classList.remove("hide");
@@ -136,10 +138,41 @@ const start = () => {
 };
 
 const nextFunction = () => {
+  const previousAnswer = saveUserAnswer();
+  userAnswers[currentQuestion - 1] = previousAnswer;
   currentQuestion++;
-  console.log(currentQuestion);
   displayQuestion(arrayOfNumbers[currentQuestion - 1], currentQuestion);
+  putCheckFunction(currentQuestion - 1);
   numOfCurrent.innerText = currentQuestion;
+};
+
+const previousFunction = () => {
+  const previousAnswer = saveUserAnswer();
+  userAnswers[currentQuestion - 1] = previousAnswer;
+  currentQuestion--;
+  if (currentQuestion < 1) currentQuestion = 1;
+  displayQuestion(arrayOfNumbers[currentQuestion - 1], currentQuestion);
+  putCheckFunction(currentQuestion - 1);
+  numOfCurrent.innerText = currentQuestion;
+};
+
+const saveUserAnswer = () => {
+  const radioButtons = document.querySelectorAll("input");
+  let choice = 0;
+  radioButtons.forEach((button) => {
+    if (button.checked === true) {
+      choice = button.id;
+    }
+  });
+  return parseInt(choice);
+};
+
+const putCheckFunction = (currentQuestion) => {
+  const userChoice = userAnswers[currentQuestion];
+  if (userChoice !== 0) {
+    const radioButtons = document.querySelectorAll("input");
+    radioButtons[userChoice - 1].checked = true;
+  }
 };
 
 const app = () => {
