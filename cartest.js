@@ -22,6 +22,7 @@ let allQuestions;
 let currentQuestion = 1;
 let arrayOfNumbers;
 let userAnswers;
+let finalAnswersForAllQuestions;
 
 const fetchData = async () => {
   try {
