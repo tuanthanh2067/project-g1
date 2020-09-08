@@ -1846,5 +1846,677 @@
       }
     ],
     "correct": 1
+  },
+  {
+    "question": "In Ontario, there is a seat belt law",
+    "image": "",
+    "number": 77,
+    "answers": [
+      {
+        "text": "Yes",
+        "id": 1
+      },
+      {
+        "text": "No",
+        "id": 2
+      },
+      {
+        "text": "Only when driving on an open highway",
+        "id": 3
+      },
+      {
+        "text": "Only when driving within a municipality",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "If someone is tailgating you, what should you do",
+    "image": "",
+    "number": 78,
+    "answers": [
+      {
+        "text": "Move into another lane when it is safe to do so",
+        "id": 1
+      },
+      {
+        "text": "Slow down slightly to increase the space in front of your car",
+        "id": 2
+      },
+      {
+        "text": "Pull over to let the tailgater pass",
+        "id": 3
+      },
+      {
+        "text": "All of the above",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Failing to stop for a school bus that is unloading passengers will",
+    "image": "",
+    "number": 79,
+    "answers": [
+      {
+        "text": "Result in a one year in jail sentence",
+        "id": 1
+      },
+      {
+        "text": "Cost you 6 demerit points and a fine of up to $1000",
+        "id": 2
+      },
+      {
+        "text": "Get you a warning and a fine of $100",
+        "id": 3
+      },
+      {
+        "text": "Result in retaking your road test",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When a car is stopped to allow a pedestrian to cross the street at a marked crosswalk, you should",
+    "image": "",
+    "number": 80,
+    "answers": [
+      {
+        "text": "Pass the stopped car on the left",
+        "id": 1
+      },
+      {
+        "text": "Sound horn for the driver of the stopped car to drive on",
+        "id": 2
+      },
+      {
+        "text": "Pass the stopped car to the right",
+        "id": 3
+      },
+      {
+        "text": "Not pass any car stopped to allow a pedestrian to cross",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "When driving in heavy fog, you should use",
+    "image": "",
+    "number": 81,
+    "answers": [
+      {
+        "text": "Parking lights",
+        "id": 1
+      },
+      {
+        "text": "Low beam headlights",
+        "id": 2
+      },
+      {
+        "text": "Parking lights and high beam headlights",
+        "id": 3
+      },
+      {
+        "text": "High beam headlights",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Never change lanes in traffic without",
+    "image": "",
+    "number": 82,
+    "answers": [
+      {
+        "text": "Giving proper signal and looking to make sure the move can be made safely",
+        "id": 1
+      },
+      {
+        "text": "Decreasing speed and giving the correct signal",
+        "id": 2
+      },
+      {
+        "text": "Looking into the rear view mirror only",
+        "id": 3
+      },
+      {
+        "text": "Blowing your horn and looking to the rear",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What documents a police officer require a motor vehicle owner to produce",
+    "image": "",
+    "number": 83,
+    "answers": [
+      {
+        "text": "If the motor vehicle is insured-a liability insurance card",
+        "id": 1
+      },
+      {
+        "text": "The motor vehicle ownership",
+        "id": 2
+      },
+      {
+        "text": "If he is operating a motor vehicle-a valid driver's licence",
+        "id": 3
+      },
+      {
+        "text": "Any of the above",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Every accident must be reported to the police where there is personal injury or when the damage exceeds",
+    "image": "",
+    "number": 84,
+    "answers": [
+      {
+        "text": "$100",
+        "id": 1
+      },
+      {
+        "text": "$150",
+        "id": 2
+      },
+      {
+        "text": "$1500",
+        "id": 3
+      },
+      {
+        "text": "$1000",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "When lights are required, drivers must use lower beam headlights when following another vehicle",
+    "image": "",
+    "number": 85,
+    "answers": [
+      {
+        "text": "Within 30m (100 ft.)",
+        "id": 1
+      },
+      {
+        "text": "Within 60m (200 ft.)",
+        "id": 2
+      },
+      {
+        "text": "Within 120m (400 ft.)",
+        "id": 3
+      },
+      {
+        "text": "This only applies when approaching another vehicle",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "While travelling on a highway, the driver of a motor vehicle is not permitted to carry, in a house or a boat trailer",
+    "image": "",
+    "number": 86,
+    "answers": [
+      {
+        "text": "Firearms",
+        "id": 1
+      },
+      {
+        "text": "Flammable material",
+        "id": 2
+      },
+      {
+        "text": "Persons (Passenger)",
+        "id": 3
+      },
+      {
+        "text": "Pets",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "When on streets designed for two-way traffic, you hear the siren of an emergency vehicle, what does the law require you to do?",
+    "image": "",
+    "number": 87,
+    "answers": [
+      {
+        "text": "Speed up and get out of the way",
+        "id": 1
+      },
+      {
+        "text": "Signal the driver to pass",
+        "id": 2
+      },
+      {
+        "text": "Pull to the right as far as possible and stop",
+        "id": 3
+      },
+      {
+        "text": "Continue at the same speed",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following has the right-of-way over all others at an intersection when the signal light is green?",
+    "image": "",
+    "number": 88,
+    "answers": [
+      {
+        "text": "Pedestrians crossing against the light",
+        "id": 1
+      },
+      {
+        "text": "Pedestrians crossing with the light",
+        "id": 2
+      },
+      {
+        "text": "Vehicles turning right",
+        "id": 3
+      },
+      {
+        "text": "Vehicles turning left",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "To what penalties is a driver liable who is convicted of driving while disqualified",
+    "image": "",
+    "number": 89,
+    "answers": [
+      {
+        "text": "A fine of $500 or imprisonment for six months or both",
+        "id": 1
+      },
+      {
+        "text": "Impoundment of the motor vehicle being operated for three months",
+        "id": 2
+      },
+      {
+        "text": "An additional 6-month period of suspension of driving privilege",
+        "id": 3
+      },
+      {
+        "text": "Any or all of the above",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "When the traffic signal-light facing you is red and you intend to go straight through the intersection, what must you do?",
+    "image": "",
+    "number": 90,
+    "answers": [
+      {
+        "text": "Stop, give pedestrians the right-of-way, then proceed with caution",
+        "id": 1
+      },
+      {
+        "text": "Stop, proceed when the way is clear",
+        "id": 2
+      },
+      {
+        "text": "Slow down, proceed when the way is clear",
+        "id": 3
+      },
+      {
+        "text": "Stop, proceed only when the signal turns green and when the way is clear",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "If you are involved in a reportable accident how soon must you make a report to your nearest provincial or municipal police officer",
+    "image": "",
+    "number": 91,
+    "answers": [
+      {
+        "text": "At once",
+        "id": 1
+      },
+      {
+        "text": "Within 24 hours",
+        "id": 2
+      },
+      {
+        "text": "Within 48 hours",
+        "id": 3
+      },
+      {
+        "text": "Within 72 hours",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "If a traffic signal changes while a pedestrian is still in the street, which of the following has the right-of-way",
+    "image": "",
+    "number": 92,
+    "answers": [
+      {
+        "text": "Motorists making turns",
+        "id": 1
+      },
+      {
+        "text": "The pedestrian",
+        "id": 2
+      },
+      {
+        "text": "Motorists coming form his right",
+        "id": 3
+      },
+      {
+        "text": "Motorists coming from his left",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Unless otherwise posted, the maximum speed limit allowed in cities, town, villages and built-up area is",
+    "image": "",
+    "number": 93,
+    "answers": [
+      {
+        "text": "30 km/h (20 m.p.h.)",
+        "id": 1
+      },
+      {
+        "text": "50 km/h (30 m.p.h.)",
+        "id": 2
+      },
+      {
+        "text": "40 km/h (25 m.p.h.)",
+        "id": 3
+      },
+      {
+        "text": "60 km/h (35 m.p.h.)",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "At an intersection where there is flashing amber (yellow) traffic light, you must",
+    "image": "",
+    "number": 94,
+    "answers": [
+      {
+        "text": "Stop if making a right turn",
+        "id": 1
+      },
+      {
+        "text": "Continue at the same speed",
+        "id": 2
+      },
+      {
+        "text": "Stop if making a left turn",
+        "id": 3
+      },
+      {
+        "text": "Slow down and proceed with caution",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Under what circumstances may a driver's licence be cancelled",
+    "image": "",
+    "number": 95,
+    "answers": [
+      {
+        "text": "For failure to attend a re-examination",
+        "id": 1
+      },
+      {
+        "text": "For possession of an altered driver's licence",
+        "id": 2
+      },
+      {
+        "text": "For failure to satisfactorily complete a driver re-examination",
+        "id": 3
+      },
+      {
+        "text": "Any or all of the above",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "As a level one (G1) driver, you must be accompanied by a class G or higher licensed driver, who has the following driving experience more than",
+    "image": "",
+    "number": 96,
+    "answers": [
+      {
+        "text": "Three years",
+        "id": 1
+      },
+      {
+        "text": "Four years",
+        "id": 2
+      },
+      {
+        "text": "Eight years",
+        "id": 3
+      },
+      {
+        "text": "Six years",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "As a level two (G2) driver your alcohol level must not be over",
+    "image": "",
+    "number": 97,
+    "answers": [
+      {
+        "text": "0.08%",
+        "id": 1
+      },
+      {
+        "text": "0.05%",
+        "id": 2
+      },
+      {
+        "text": "0.02%",
+        "id": 3
+      },
+      {
+        "text": "0.00%",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Overdriving your headlights at night is dangerous because",
+    "image": "",
+    "number": 98,
+    "answers": [
+      {
+        "text": "You are driving too fast",
+        "id": 1
+      },
+      {
+        "text": "Your headlights are too bright",
+        "id": 2
+      },
+      {
+        "text": "You cannot stop within the distance that you can see",
+        "id": 3
+      },
+      {
+        "text": "It is not good for the car battery",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "If you want to pass a motorcycle, you should",
+    "image": "",
+    "number": 99,
+    "answers": [
+      {
+        "text": "Honk your horn before you pass",
+        "id": 1
+      },
+      {
+        "text": "Turn on your high-beam lights before you pass",
+        "id": 2
+      },
+      {
+        "text": "Pass just as you would with another car",
+        "id": 3
+      },
+      {
+        "text": "Use half of their lane to pass",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "If you are a teenage driver aged 19 or under and in the first six months of receiving your G2 license. How many passengers are you allowed to carry between midnight and 5 a.m?",
+    "image": "",
+    "number": 100,
+    "answers": [
+      {
+        "text": "3 passengers aged 19 or under",
+        "id": 1
+      },
+      {
+        "text": "No passengers aged 19 or under",
+        "id": 2
+      },
+      {
+        "text": "1 passenger aged 19 or under (no restrictions for passengers the age of 20 and over)",
+        "id": 3
+      },
+      {
+        "text": "2 passengers aged 19 or under",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "If you are a teenage driver with your G2 licence for 6 months and until you obtain your full G licence or turn 20, how many passengers are you allowed to carry between midnight and 5 a.m?",
+    "image": "",
+    "number": 101,
+    "answers": [
+      {
+        "text": "3 passengers aged 19 or under (no restrictions for passengers the age of 20 and over)",
+        "id": 1
+      },
+      {
+        "text": "No passengers aged 19 or under",
+        "id": 2
+      },
+      {
+        "text": "1 passenger aged 19 or under",
+        "id": 3
+      },
+      {
+        "text": "2 passengers aged 19 or under",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A 'No parking' sign at a certain location means",
+    "image": "",
+    "number": 102,
+    "answers": [
+      {
+        "text": "You may stop here if the driver remains in the vehicle",
+        "id": 1
+      },
+      {
+        "text": "You may park your vehicle for less than five minutes",
+        "id": 2
+      },
+      {
+        "text": "You may stop temporarily to load or unload passengers",
+        "id": 3
+      },
+      {
+        "text": "You may not park your vehicle here",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "In what position on the roadway must you be before making a left turn from a one-way traffic street?",
+    "image": "",
+    "number": 103,
+    "answers": [
+      {
+        "text": "Close to the right-hand side of the roadway",
+        "id": 1
+      },
+      {
+        "text": "Close to the centre line of the roadway",
+        "id": 2
+      },
+      {
+        "text": "Close to the left side of the roadway",
+        "id": 3
+      },
+      {
+        "text": "Does not matter",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "When lights are required, drivers are required to use low beam headlights?",
+    "image": "",
+    "number": 104,
+    "answers": [
+      {
+        "text": "Within 1 km (0.6 mile) of the approach of another vehicle",
+        "id": 1
+      },
+      {
+        "text": "Within 150 m (500 ft.) of the approach of another vehicle",
+        "id": 2
+      },
+      {
+        "text": "Within 300 m (1000 ft.) of the approach of another vehicle",
+        "id": 3
+      },
+      {
+        "text": "This is a safety practice, not a law",
+        "id": 4
+      }
+    ],
+    "correct": 2
   }
 ]

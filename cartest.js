@@ -5,6 +5,7 @@ const previousButton = document.querySelector(".previous-btn");
 const nextButton = document.querySelector(".next-btn");
 const numOfCurrent = document.querySelector("#current-question");
 const controlButtons = document.querySelector(".control-buttons");
+const smallWindow = document.querySelector(".small-window");
 
 startButton.addEventListener("click", () => {
   start();
@@ -16,6 +17,10 @@ nextButton.addEventListener("click", () => {
 
 previousButton.addEventListener("click", () => {
   previousFunction();
+});
+
+numOfCurrent.addEventListener("click", () => {
+  smallWindow.classList.toggle("active");
 });
 
 let allQuestions;
