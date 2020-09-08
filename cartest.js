@@ -6,6 +6,14 @@ const nextButton = document.querySelector(".next-btn");
 const numOfCurrent = document.querySelector("#current-question");
 const controlButtons = document.querySelector(".control-buttons");
 const smallWindow = document.querySelector(".small-window");
+const allSections = document.querySelectorAll(".section");
+
+let allQuestions;
+let currentQuestion = 1;
+let arrayOfNumbers;
+let userAnswers;
+let finalAnswersForAllQuestions;
+let tempNumForSmallWindow;
 
 startButton.addEventListener("click", () => {
   start();
@@ -21,13 +29,13 @@ previousButton.addEventListener("click", () => {
 
 numOfCurrent.addEventListener("click", () => {
   smallWindow.classList.toggle("active");
+  const input = document.querySelector("input");
+  if (input.name.length === 2) {
+    tempNumForSmallWindow = parseInt(input.name[1]);
+  } else {
+    tempNumForSmallWindow = parseInt(input.name[1] + input.name[2]);
+  }
 });
-
-let allQuestions;
-let currentQuestion = 1;
-let arrayOfNumbers;
-let userAnswers;
-let finalAnswersForAllQuestions;
 
 const fetchData = async () => {
   try {
@@ -112,19 +120,19 @@ const displayQuestion = (num, current) => {
         <div class="answer-buttons">
           <form action="">
             <div class="row">
-              <input type="radio" id="${allQuestions[num].answers[0].id}" name="question${current}" value="${allQuestions[num].answers[0].text}" />
+              <input type="radio" id="${allQuestions[num].answers[0].id}" name="q${current}" value="${allQuestions[num].answers[0].text}" />
               <label for="${allQuestions[num].answers[0].id}">${allQuestions[num].answers[0].text}</label>
             </div>
             <div class="row">
-              <input type="radio" id="${allQuestions[num].answers[1].id}" name="question${current}" value="${allQuestions[num].answers[1].text}" />
+              <input type="radio" id="${allQuestions[num].answers[1].id}" name="q${current}" value="${allQuestions[num].answers[1].text}" />
               <label for="${allQuestions[num].answers[1].id}">${allQuestions[num].answers[1].text}</label>
             </div>
             <div class="row">
-              <input type="radio" id="${allQuestions[num].answers[2].id}" name="question${current}" value="${allQuestions[num].answers[2].text}" />
+              <input type="radio" id="${allQuestions[num].answers[2].id}" name="q${current}" value="${allQuestions[num].answers[2].text}" />
               <label for="${allQuestions[num].answers[2].id}">${allQuestions[num].answers[2].text}</label>
             </div>
             <div class="row">
-              <input type="radio" id="${allQuestions[num].answers[3].id}" name="question${current}" value="${allQuestions[num].answers[3].text}" />
+              <input type="radio" id="${allQuestions[num].answers[3].id}" name="q${current}" value="${allQuestions[num].answers[3].text}" />
               <label for="${allQuestions[num].answers[3].id}">${allQuestions[num].answers[3].text}</label>
             </div>
           </form>
@@ -157,10 +165,26 @@ const previousFunction = () => {
   userAnswers[currentQuestion - 1] = previousAnswer;
   currentQuestion--;
   if (currentQuestion < 1) currentQuestion = 1;
-  displayQuestion(arrayOfNumbers[currentQuestion - 1], currentQuestion);
-  putCheckFunction(currentQuestion - 1);
-  numOfCurrent.innerText = currentQuestion;
+  else {
+    displayQuestion(arrayOfNumbers[currentQuestion - 1], currentQuestion);
+    putCheckFunction(currentQuestion - 1);
+    numOfCurrent.innerText = currentQuestion;
+  }
 };
+
+allSections.forEach((section, index) => {
+  section.addEventListener("click", () => {
+    // question number = index + 1.
+    const previousAnswer = saveUserAnswer();
+    // find which question we are in then save it to userAnswers.
+    currentQuestion = index + 1;
+    userAnswers[tempNumForSmallWindow - 1] = previousAnswer;
+    smallWindow.classList.remove("active");
+    displayQuestion(arrayOfNumbers[index], index + 1);
+    putCheckFunction(index);
+    numOfCurrent.innerText = index + 1;
+  });
+});
 
 const saveUserAnswer = () => {
   const radioButtons = document.querySelectorAll("input");
