@@ -2518,5 +2518,389 @@
       }
     ],
     "correct": 2
+  },
+  {
+    "question": "What insurance protection does the owner get who pays the uninsured motor vehicle fee?",
+    "image": "",
+    "number": 105,
+    "answers": [
+      {
+        "text": "$10,000 insurance coverage",
+        "id": 1
+      },
+      {
+        "text": "$20,000 insurance coverage",
+        "id": 2
+      },
+      {
+        "text": "$35,000 insurance coverage",
+        "id": 3
+      },
+      {
+        "text": "No insurance protection whatever",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "When approaching a railway crossing at which an electrical or mechanical signal device is warning of the approach of a train you must",
+    "image": "",
+    "number": 106,
+    "answers": [
+      {
+        "text": "Stop not less than 1.5m (5 ft.) from the nearest rail",
+        "id": 1
+      },
+      {
+        "text": "Increase speed and cross tracks as quickly as possible",
+        "id": 2
+      },
+      {
+        "text": "Stop not less than 5m (15 ft.) from the nearest rail",
+        "id": 3
+      },
+      {
+        "text": "Slow down and proceed with caution",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Upon approaching a Yield-sign, what does the law require you to do?",
+    "image": "",
+    "number": 107,
+    "answers": [
+      {
+        "text": "Slow down, stop if necessary, and yield right-of-way",
+        "id": 1
+      },
+      {
+        "text": "Stop, then enter traffic slowly",
+        "id": 2
+      },
+      {
+        "text": "Stop, then enter traffic quickly",
+        "id": 3
+      },
+      {
+        "text": "Speed up and force your way into traffic",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When does the law require lights on vehicles to be turned on?",
+    "image": "",
+    "number": 108,
+    "answers": [
+      {
+        "text": "Between sunset and sunrise",
+        "id": 1
+      },
+      {
+        "text": "Between dusk and dawn and at any other time you can not see clearly for a distance of 150m (500 ft.)",
+        "id": 2
+      },
+      {
+        "text": "Between half an hour before sunset to half an hour after sunrise and at any other time you cannot see clearly for a distance of 150m (500 ft.)",
+        "id": 3
+      },
+      {
+        "text": "No specified time",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "A person whose driver's license is under suspension, may",
+    "image": "",
+    "number": 109,
+    "answers": [
+      {
+        "text": "Operate a motor vehicle in a case of extreme emergency",
+        "id": 1
+      },
+      {
+        "text": "Operate a motor vehicle to and from work",
+        "id": 2
+      },
+      {
+        "text": "Operator a motor vehicle when accompanied by a licensed driver",
+        "id": 3
+      },
+      {
+        "text": "Not operate a motor vehicle under any conditions",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "If the signal light changes from green to amber as you approach an intersection, what should you do?",
+    "image": "",
+    "number": 110,
+    "answers": [
+      {
+        "text": "Stop if a stop cannot be made safely proceed with caution",
+        "id": 1
+      },
+      {
+        "text": "Speed up to clear the intersection as quickly as possible",
+        "id": 2
+      },
+      {
+        "text": "Continue through the intersection without slowing or stopping",
+        "id": 3
+      },
+      {
+        "text": "Sound horn to warn pedestrians and other drivers that you do not intend to stop",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When a streetcar is stopped to take on or discharge passengers, where there is no safety zone, what does the law require you to do before passing the streetcar",
+    "image": "",
+    "number": 111,
+    "answers": [
+      {
+        "text": "Stop behind the rear of the streetcar and then proceed",
+        "id": 1
+      },
+      {
+        "text": "Sound horn and pass with caution",
+        "id": 2
+      },
+      {
+        "text": "Pass on the left side when the way is clear",
+        "id": 3
+      },
+      {
+        "text": "Stop 2 m (6 ft.) behind the rearmost door where passengers are getting on or off, and proceed only when it is safe to do so",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "On a roadway where traffic is moving in both directions, in what position must you be before making a left turn",
+    "image": "",
+    "number": 112,
+    "answers": [
+      {
+        "text": "Close the the right-hand side of the roadway",
+        "id": 1
+      },
+      {
+        "text": "Close to the left side of the roadway",
+        "id": 2
+      },
+      {
+        "text": "Immediately to the right of the center line of the roadway",
+        "id": 3
+      },
+      {
+        "text": "Does not matter",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Upon approaching a stop sign, a driver must",
+    "image": "",
+    "number": 113,
+    "answers": [
+      {
+        "text": "SLow down, sound horn and then proceed",
+        "id": 1
+      },
+      {
+        "text": "Slow down, and if the way is clear, proceed",
+        "id": 2
+      },
+      {
+        "text": "Stop, sound horn, then proceed",
+        "id": 3
+      },
+      {
+        "text": "Stop, and when it is safe to do so, proceed",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "You should under all condition drive at a speed which will allow you to",
+    "image": "",
+    "number": 114,
+    "answers": [
+      {
+        "text": "Stop within 90 metres (300 feet)",
+        "id": 1
+      },
+      {
+        "text": "Stop within 60 metres (200 feet)",
+        "id": 2
+      },
+      {
+        "text": "Stop within a safe distance",
+        "id": 3
+      },
+      {
+        "text": "Stop within 150 metres (500 feet)",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "The Ministry of Transportation and Communications may suspend a license after a 9 Demerit Point interview",
+    "image": "",
+    "number": 115,
+    "answers": [
+      {
+        "text": "If a driver fails to give satisfactory reasons why their license should not be suspended",
+        "id": 1
+      },
+      {
+        "text": "If a driver does not have at least 5 years driving experience",
+        "id": 2
+      },
+      {
+        "text": "If the license if not needed for business reasons",
+        "id": 3
+      },
+      {
+        "text": "The Ministry is not permitted to suspend a license before the 15-point-level is reached",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A school bus with red signal lights flashing, is stopped on a highway that has no median strip. What does the law require you to do when meeting or overtaking the bus?",
+    "image": "",
+    "number": 116,
+    "answers": [
+      {
+        "text": "Does not matter provided you sound horn",
+        "id": 1
+      },
+      {
+        "text": "Stop until the bus proceeds or the signal lights are no longer flashing",
+        "id": 2
+      },
+      {
+        "text": "Wait for approaching vehicles to pass",
+        "id": 3
+      },
+      {
+        "text": "Reduce speed and pass with car",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following penalties can the court impose on a person convicted of driving 50 km/h (30 m.p.h) or more over the speed limit?",
+    "image": "",
+    "number": 117,
+    "answers": [
+      {
+        "text": "Suspension of license for 6 months",
+        "id": 1
+      },
+      {
+        "text": "Suspension of license for 30 days",
+        "id": 2
+      },
+      {
+        "text": "Impoundment of motor vehicle for 6 months",
+        "id": 3
+      },
+      {
+        "text": "Imprisonment of person for 6 months",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Before moving your car from a parked position, you should",
+    "image": "",
+    "number": 118,
+    "answers": [
+      {
+        "text": "Check other traffic, signal and pull from the curb quickly",
+        "id": 1
+      },
+      {
+        "text": "Honk your horn and pull from the curb slowly",
+        "id": 2
+      },
+      {
+        "text": "Check other traffic, signal and pull from the curb when it is safe to do so",
+        "id": 3
+      },
+      {
+        "text": "Signal and pull form the curn",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Should your right wheels drop off the roadway, what is the best way to get back on the roadway",
+    "image": "",
+    "number": 119,
+    "answers": [
+      {
+        "text": "Steer hard to the left",
+        "id": 1
+      },
+      {
+        "text": "Apply brakes and steer hard to the left",
+        "id": 2
+      },
+      {
+        "text": "Take foot off gas pedal, turn back when vehicle has slowed",
+        "id": 3
+      },
+      {
+        "text": "Apply brakes to reduce speed",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "When 15 or more Demerit Points have accumulated on a record, the driver's license is suspended",
+    "image": "",
+    "number": 120,
+    "answers": [
+      {
+        "text": "Automatically, and for 30 days form receipt of license",
+        "id": 1
+      },
+      {
+        "text": "At the discretion of the Ministry",
+        "id": 2
+      },
+      {
+        "text": "Only if the license is NOT used for business purposes",
+        "id": 3
+      },
+      {
+        "text": "For 3 months",
+        "id": 4
+      }
+    ],
+    "correct": 1
   }
 ]
