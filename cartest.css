@@ -71,7 +71,9 @@ i {
 
 .beginning.hide,
 .container.hide,
-.control-buttons.hide {
+.control-buttons.hide,
+.next-btn.hide,
+.submit-btn.hide {
   pointer-events: none;
   display: none;
 }

@@ -7,6 +7,8 @@ const numOfCurrent = document.querySelector("#current-question");
 const controlButtons = document.querySelector(".control-buttons");
 const smallWindow = document.querySelector(".small-window");
 const allSections = document.querySelectorAll(".section");
+const submitButton = document.querySelector(".submit-btn");
+const answeredQuestions = document.querySelectorAll(".answered-question");
 
 let allQuestions;
 let currentQuestion = 1;
@@ -37,6 +39,12 @@ numOfCurrent.addEventListener("click", () => {
   }
 });
 
+submitButton.addEventListener("click", () => {
+  beginning.classList.add("hide");
+  container.classList.add("hide");
+  controlButtons.classList.add("hide");
+});
+
 const fetchData = async () => {
   try {
     const link = "./json/quizzes.json";
@@ -45,7 +53,6 @@ const fetchData = async () => {
 
     let questions = data.map((one) => {
       const { question, image, number, answers, correct } = one;
-      console.log(one.number);
       return { question, image, number, answers, correct };
     });
     return questions;
@@ -155,18 +162,30 @@ const start = () => {
 const nextFunction = () => {
   const previousAnswer = saveUserAnswer();
   userAnswers[currentQuestion - 1] = previousAnswer;
+  updateSectionInSmallWindow(previousAnswer, currentQuestion);
   currentQuestion++;
+  if (currentQuestion === 40) {
+    nextButton.classList.add("hide");
+    submitButton.classList.remove("hide");
+  }
   displayQuestion(arrayOfNumbers[currentQuestion - 1], currentQuestion);
   putCheckFunction(currentQuestion - 1);
   numOfCurrent.innerText = currentQuestion;
 };
 
 const previousFunction = () => {
+  if (nextButton.classList.contains("hide")) {
+    nextButton.classList.remove("hide");
+    submitButton.classList.add("hide");
+  }
   const previousAnswer = saveUserAnswer();
   userAnswers[currentQuestion - 1] = previousAnswer;
   currentQuestion--;
-  if (currentQuestion < 1) currentQuestion = 1;
-  else {
+  if (currentQuestion < 1) {
+    currentQuestion = 1;
+    updateSectionInSmallWindow(previousAnswer, currentQuestion);
+  } else {
+    updateSectionInSmallWindow(previousAnswer, currentQuestion + 1);
     displayQuestion(arrayOfNumbers[currentQuestion - 1], currentQuestion);
     putCheckFunction(currentQuestion - 1);
     numOfCurrent.innerText = currentQuestion;
@@ -179,7 +198,16 @@ allSections.forEach((section, index) => {
     const previousAnswer = saveUserAnswer();
     // find which question we are in then save it to userAnswers.
     currentQuestion = index + 1;
+
+    if (currentQuestion === 40) {
+      nextButton.classList.add("hide");
+      submitButton.classList.remove("hide");
+    } else {
+      nextButton.classList.remove("hide");
+      submitButton.classList.add("hide");
+    }
     userAnswers[tempNumForSmallWindow - 1] = previousAnswer;
+    updateSectionInSmallWindow(previousAnswer, tempNumForSmallWindow);
     smallWindow.classList.remove("active");
     displayQuestion(arrayOfNumbers[index], index + 1);
     putCheckFunction(index);
@@ -203,6 +231,14 @@ const putCheckFunction = (currentQuestion) => {
   if (userChoice !== 0) {
     const radioButtons = document.querySelectorAll("input");
     radioButtons[userChoice - 1].checked = true;
+  }
+};
+
+const updateSectionInSmallWindow = (num, previousQuestion) => {
+  // num will be 0 1 2 3 4
+  // previous Question: the number of the previous question that user just answered
+  if (num !== 0) {
+    answeredQuestions[previousQuestion - 1].innerText = "Answered";
   }
 };
 
