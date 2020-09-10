@@ -45,6 +45,7 @@ const fetchData = async () => {
 
     let questions = data.map((one) => {
       const { question, image, number, answers, correct } = one;
+      console.log(one.number);
       return { question, image, number, answers, correct };
     });
     return questions;
