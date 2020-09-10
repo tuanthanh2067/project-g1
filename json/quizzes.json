@@ -3700,5 +3700,1133 @@
       }
     ],
     "correct": 2
+  },
+  {
+    "question": "Why is it necessary to look over your shoulder when changing lanes",
+    "image": "",
+    "number": 154,
+    "answers": [
+      {
+        "text": "It is a good exercise for your neck",
+        "id": 1
+      },
+      {
+        "text": "There will always be a blind spot in your mirrors, no matter how you adjust them",
+        "id": 2
+      },
+      {
+        "text": "To see who is driving",
+        "id": 3
+      },
+      {
+        "text": "All of the above",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "If your brakes fail",
+    "image": "",
+    "number": 155,
+    "answers": [
+      {
+        "text": "Pump the brake pedal",
+        "id": 1
+      },
+      {
+        "text": "Apply the parking brake gently but firmly",
+        "id": 2
+      },
+      {
+        "text": "Keep your hand on the release button (of the parking brake)",
+        "id": 3
+      },
+      {
+        "text": "All of the above",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "The police have the right to stop any driver they suspect is impaired. If you refuse to take a breathalyzer tes, your licence will be suspended immediately for",
+    "image": "",
+    "number": 156,
+    "answers": [
+      {
+        "text": "30 days",
+        "id": 1
+      },
+      {
+        "text": "1 year",
+        "id": 2
+      },
+      {
+        "text": "60 days",
+        "id": 3
+      },
+      {
+        "text": "90 days",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "If you are driving and your cellular phone rings, what should you do?",
+    "image": "",
+    "number": 157,
+    "answers": [
+      {
+        "text": "Pick up the phone quickly and talk briefly while driving",
+        "id": 1
+      },
+      {
+        "text": "Let your voice mail service take the call and check your messages when you are parked",
+        "id": 2
+      },
+      {
+        "text": "Answer the phone if there are no police around",
+        "id": 3
+      },
+      {
+        "text": "Turn-it-off, it is illegal to talk on the cellular while driving",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Snow tires are good for",
+    "image": "",
+    "number": 158,
+    "answers": [
+      {
+        "text": "Summer driving",
+        "id": 1
+      },
+      {
+        "text": "All season driving",
+        "id": 2
+      },
+      {
+        "text": "Winter driving",
+        "id": 3
+      },
+      {
+        "text": "Spring and fall only",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Level one drivers (G1) must keep their blood alcohol level at zeo percent and be accompanied by a class G driver with a blood alcohol level of less than",
+    "image": "",
+    "number": 159,
+    "answers": [
+      {
+        "text": "0.00%",
+        "id": 1
+      },
+      {
+        "text": "0.05%",
+        "id": 2
+      },
+      {
+        "text": "0.08%",
+        "id": 3
+      },
+      {
+        "text": "0.03%",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "You must report an accident to the police under what condition",
+    "image": "",
+    "number": 160,
+    "answers": [
+      {
+        "text": "There is less than $600 damage",
+        "id": 1
+      },
+      {
+        "text": "The damage is over $1000",
+        "id": 2
+      },
+      {
+        "text": "If someone has been hurt or killed",
+        "id": 3
+      },
+      {
+        "text": "2 and 3 are correct",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "As a level one or level two driver you will have you licence suspended if you collect 9 or more demerit points during a two year period. 60 days after suspension your record will be reduced to",
+    "image": "",
+    "number": 161,
+    "answers": [
+      {
+        "text": "6 points",
+        "id": 1
+      },
+      {
+        "text": "4 points",
+        "id": 2
+      },
+      {
+        "text": "Zero",
+        "id": 3
+      },
+      {
+        "text": "2 points",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Under the Highway Traffic Act, if you are convicted of driving while your licence is suspended, assuming it is your first offence you will",
+    "image": "",
+    "number": 162,
+    "answers": [
+      {
+        "text": "Receive a fine of $500",
+        "id": 1
+      },
+      {
+        "text": "Be fined between $1000 to $5000",
+        "id": 2
+      },
+      {
+        "text": "Be sentenced to six months in jail",
+        "id": 3
+      },
+      {
+        "text": "All of the above",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "At night when you meet another vehicle with blinding bright lights, the safest thing to do is",
+    "image": "",
+    "number": 163,
+    "answers": [
+      {
+        "text": "Open and shut your eyes rapidly",
+        "id": 1
+      },
+      {
+        "text": "Look at the headlights of the approaching vehicle",
+        "id": 2
+      },
+      {
+        "text": "Turn your lights on high beam",
+        "id": 3
+      },
+      {
+        "text": "Look slightly to the right hand side",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "When two cars reach an uncontrolled intersection at approximately the same time the right-of-way should be given to",
+    "image": "",
+    "number": 164,
+    "answers": [
+      {
+        "text": "The one approaching from the left",
+        "id": 1
+      },
+      {
+        "text": "The one approaching from the right",
+        "id": 2
+      },
+      {
+        "text": "Neither one",
+        "id": 3
+      },
+      {
+        "text": "The one moving faster",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In what lane of traffic should run drive when you intend to make a right-hand turn?",
+    "image": "",
+    "number": 165,
+    "answers": [
+      {
+        "text": "Close to the left side of the roadway",
+        "id": 1
+      },
+      {
+        "text": "Close to the right-hand side of the roadway",
+        "id": 2
+      },
+      {
+        "text": "Close to the center line of the roadway",
+        "id": 3
+      },
+      {
+        "text": "Does not matter",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When you are deciding whether or not to make a U turn, your first consideration should be to check",
+    "image": "",
+    "number": 166,
+    "answers": [
+      {
+        "text": "Traffic regulations",
+        "id": 1
+      },
+      {
+        "text": "Presence of trees, fire hydrants, or poles near the curb",
+        "id": 2
+      },
+      {
+        "text": "Turning radius of your car",
+        "id": 3
+      },
+      {
+        "text": "Height of curb",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the only effective way to remove alcohol from your body",
+    "image": "",
+    "number": 167,
+    "answers": [
+      {
+        "text": "Drinking strong coffee",
+        "id": 1
+      },
+      {
+        "text": "Allow your body time to get rid of the alcohol",
+        "id": 2
+      },
+      {
+        "text": "Taking a cold shower",
+        "id": 3
+      },
+      {
+        "text": "Drinking more wine",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "If you miss an expressway exit, what should you do?",
+    "image": "",
+    "number": 168,
+    "answers": [
+      {
+        "text": "Stop on the shoulder and check your map",
+        "id": 1
+      },
+      {
+        "text": "If there are no cars, you may back up",
+        "id": 2
+      },
+      {
+        "text": "Go straight and exit at the next exit",
+        "id": 3
+      },
+      {
+        "text": "Make a U-turn",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "If you are involved in an accident and another person is injured you should",
+    "image": "",
+    "number": 169,
+    "answers": [
+      {
+        "text": "Keep talking to the injured person",
+        "id": 1
+      },
+      {
+        "text": "Move the injured person away from the vehicle immediately",
+        "id": 2
+      },
+      {
+        "text": "Do not move the injured person unnecessarily, keep the injured person warm and administer first aid if possible",
+        "id": 3
+      },
+      {
+        "text": "Don't talk to the injured person",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Before leaving your car parked on a downgrade, you should",
+    "image": "",
+    "number": 170,
+    "answers": [
+      {
+        "text": "Leave your front wheels parallel to the curb",
+        "id": 1
+      },
+      {
+        "text": "Turn your front wheels to the left and set your parking brake",
+        "id": 2
+      },
+      {
+        "text": "Set your parking brake only",
+        "id": 3
+      },
+      {
+        "text": "Turn your front wheels to the right and set your parking brake",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "It is more dangerous to drive at the maximum speed limit at night than during day-time because",
+    "image": "",
+    "number": 171,
+    "answers": [
+      {
+        "text": "Some drivers unlawfully drive with parking lights only",
+        "id": 1
+      },
+      {
+        "text": "You cannot see as far ahead at night",
+        "id": 2
+      },
+      {
+        "text": "The roadway are more apt to be slippery at night",
+        "id": 3
+      },
+      {
+        "text": "Your reaction time is slower at night",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The broken centre line on a roadway means you may",
+    "image": "",
+    "number": 172,
+    "answers": [
+      {
+        "text": "Never pass",
+        "id": 1
+      },
+      {
+        "text": "Pass if the way is clear",
+        "id": 2
+      },
+      {
+        "text": "Pass at any time",
+        "id": 3
+      },
+      {
+        "text": "Pass only during daylight hours",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "How close to a fire hydrant may you legally park?",
+    "image": "",
+    "number": 173,
+    "answers": [
+      {
+        "text": "3 metres (10 ft.)",
+        "id": 1
+      },
+      {
+        "text": "4.5 metres (15 ft.)",
+        "id": 2
+      },
+      {
+        "text": "1.5 metres (5 ft.)",
+        "id": 3
+      },
+      {
+        "text": "6 metres (20 ft.)",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Except when you intend to overtake and pass another vehicle or when you intend to make a left turn, you should",
+    "image": "",
+    "number": 174,
+    "answers": [
+      {
+        "text": "Drive in the centre of the roadway",
+        "id": 1
+      },
+      {
+        "text": "Always keep well to the right",
+        "id": 2
+      },
+      {
+        "text": "Drive on the shoulder of the highway",
+        "id": 3
+      },
+      {
+        "text": "Always keep well to the left",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Parking lights may be used",
+    "image": "",
+    "number": 175,
+    "answers": [
+      {
+        "text": "At any time",
+        "id": 1
+      },
+      {
+        "text": "For parking only",
+        "id": 2
+      },
+      {
+        "text": "When driving in heavy fog",
+        "id": 3
+      },
+      {
+        "text": "When driving on well lighted street",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A solid centre line on the roadway is on your side of a broken centre line. What does the solid centre line mean",
+    "image": "",
+    "number": 176,
+    "answers": [
+      {
+        "text": "It is unsafe to overtake and pass",
+        "id": 1
+      },
+      {
+        "text": "Pass only when no traffic is in sight",
+        "id": 2
+      },
+      {
+        "text": "It is safe to overtake and pass",
+        "id": 3
+      },
+      {
+        "text": "Pass at any time",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "The best way to stop quickly on a wet or icy roadway is to",
+    "image": "",
+    "number": 177,
+    "answers": [
+      {
+        "text": "Pump the brake until you come to a stop",
+        "id": 1
+      },
+      {
+        "text": "Keep foot off brake and let compression stop you",
+        "id": 2
+      },
+      {
+        "text": "Slam on brake and try to prevent vehicle from skidding",
+        "id": 3
+      },
+      {
+        "text": "Apply brakes the same way you always do",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "If you lose control of your vehicle and it goes off the road, you should",
+    "image": "",
+    "number": 178,
+    "answers": [
+      {
+        "text": "Grip the steering wheel firmly",
+        "id": 1
+      },
+      {
+        "text": "Take your foot off the gas pedal to slow down and void heavy braking",
+        "id": 2
+      },
+      {
+        "text": "When the vehicle is under control steer back to the road",
+        "id": 3
+      },
+      {
+        "text": "All of the above",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Under the Criminal Code, if you are caught driving while your licence is suspended, your vehicle will be impounded for?",
+    "image": "",
+    "number": 179,
+    "answers": [
+      {
+        "text": "1 year",
+        "id": 1
+      },
+      {
+        "text": "6 months",
+        "id": 2
+      },
+      {
+        "text": "45 days",
+        "id": 3
+      },
+      {
+        "text": "30 days",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "When taking any medication, you should",
+    "image": "",
+    "number": 180,
+    "answers": [
+      {
+        "text": "Have someone follow you some",
+        "id": 1
+      },
+      {
+        "text": "Drive even slower",
+        "id": 2
+      },
+      {
+        "text": "Consult your doctor about the effects before driving",
+        "id": 3
+      },
+      {
+        "text": "Drink lots of water",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What should you do if your vehicle becomes disabled on the highway?",
+    "image": "",
+    "number": 181,
+    "answers": [
+      {
+        "text": "Park with all your four wheels off the travelled highway, if possible",
+        "id": 1
+      },
+      {
+        "text": "Stop where you are",
+        "id": 2
+      },
+      {
+        "text": "Stop in the right lane",
+        "id": 3
+      },
+      {
+        "text": "Stop in the left lane",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A defensive driver will",
+    "image": "",
+    "number": 182,
+    "answers": [
+      {
+        "text": "Drive faster in the rain",
+        "id": 1
+      },
+      {
+        "text": "Play music loudly",
+        "id": 2
+      },
+      {
+        "text": "Consider what other drivers might do and is always prepared",
+        "id": 3
+      },
+      {
+        "text": "Talk on the cell phone while driving",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following hand-and-arm signals is correct for slowing or stopping?",
+    "image": "",
+    "number": 183,
+    "answers": [
+      {
+        "text": "Arm out and up",
+        "id": 1
+      },
+      {
+        "text": "Arm straight out the window",
+        "id": 2
+      },
+      {
+        "text": "Arm out and down",
+        "id": 3
+      },
+      {
+        "text": "Circle motion",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "You are required to keep a safe distance behind the vehicle in front of you at 50 kilometers (30 miles) an hour. You should keep at least",
+    "image": "",
+    "number": 184,
+    "answers": [
+      {
+        "text": "Seven car lengths behind the other vehicle",
+        "id": 1
+      },
+      {
+        "text": "Three car lengths behind the other vehicle",
+        "id": 2
+      },
+      {
+        "text": "One car length behind the other vehicle",
+        "id": 3
+      },
+      {
+        "text": "Five car lengths behind the other vehicle",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When driving a motor vehicle on the highway at night, you should use low beam headlights (dim lights) when",
+    "image": "",
+    "number": 185,
+    "answers": [
+      {
+        "text": "Approaching an intersection",
+        "id": 1
+      },
+      {
+        "text": "Meeting or following another vehicle",
+        "id": 2
+      },
+      {
+        "text": "Another driver dims his lights",
+        "id": 3
+      },
+      {
+        "text": "Blinded by the headlights of an approaching vehicle",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What muse a driver do before entering a highway from a private road or driveway?",
+    "image": "",
+    "number": 186,
+    "answers": [
+      {
+        "text": "Sound horn and proceed with caution",
+        "id": 1
+      },
+      {
+        "text": "Enter or cross the highway as quickly as possible",
+        "id": 2
+      },
+      {
+        "text": "Give hand signal then take right-of-way",
+        "id": 3
+      },
+      {
+        "text": "Yield right-of-way to all vehicles approaching on the highway",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Demerit points lost will remain on your driver's record for a period of _______ from the date of offence",
+    "image": "",
+    "number": 187,
+    "answers": [
+      {
+        "text": "One year",
+        "id": 1
+      },
+      {
+        "text": "Two years",
+        "id": 2
+      },
+      {
+        "text": "Three years",
+        "id": 3
+      },
+      {
+        "text": "Five years",
+        "id": 4
+      }
+    ],
+    "correct": 2
+  },
+  {
+    "question": "As a level one or level two driver, if you collect nine or more points during a two-year period, your licence will be suspended for",
+    "image": "",
+    "number": 188,
+    "answers": [
+      {
+        "text": "60 days",
+        "id": 1
+      },
+      {
+        "text": "30 days",
+        "id": 2
+      },
+      {
+        "text": "1 year",
+        "id": 3
+      },
+      {
+        "text": "15 days",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Highway 407 is",
+    "image": "",
+    "number": 189,
+    "answers": [
+      {
+        "text": "The longest highway in Ontario",
+        "id": 1
+      },
+      {
+        "text": "Is a new highway",
+        "id": 2
+      },
+      {
+        "text": "Is an express toll route (pay toll highway)",
+        "id": 3
+      },
+      {
+        "text": "An expressway to the USA",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "To get your vehicle out of a skid, you should first",
+    "image": "",
+    "number": 190,
+    "answers": [
+      {
+        "text": "Steer in the opposite direction of the skid",
+        "id": 1
+      },
+      {
+        "text": "Steer straight ahead",
+        "id": 2
+      },
+      {
+        "text": "Apply brake hard",
+        "id": 3
+      },
+      {
+        "text": "Steer in the direction of the skid",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Most automobile skids are the result of",
+    "image": "",
+    "number": 191,
+    "answers": [
+      {
+        "text": "Under-inflated tires",
+        "id": 1
+      },
+      {
+        "text": "Over-inflated tires",
+        "id": 2
+      },
+      {
+        "text": "Snow or ice on the road",
+        "id": 3
+      },
+      {
+        "text": "Driving too fast",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Roadways are most slippery",
+    "image": "",
+    "number": 192,
+    "answers": [
+      {
+        "text": "During a heavy downpour",
+        "id": 1
+      },
+      {
+        "text": "After it has been raining for awhile",
+        "id": 2
+      },
+      {
+        "text": "The first rain after a dry spell",
+        "id": 3
+      },
+      {
+        "text": "In construction zones",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "If you become very tired while driving you should",
+    "image": "",
+    "number": 193,
+    "answers": [
+      {
+        "text": "Stop and rest",
+        "id": 1
+      },
+      {
+        "text": "Drink coffee",
+        "id": 2
+      },
+      {
+        "text": "Drive faster to your destination",
+        "id": 3
+      },
+      {
+        "text": "Open your windows to allow fresh air in the car",
+        "id": 4
+      }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Hydroplaning occurs during heavy rain when a vehicle's tires ride up above the water on the roadway. To help prevent hydroplaning you should",
+    "image": "",
+    "number": 194,
+    "answers": [
+      {
+        "text": "Ensure that your tires on your vehicles have good tread depth",
+        "id": 1
+      },
+      {
+        "text": "Ensure that the tires on the vehicle are inflated to the proper tire pressure",
+        "id": 2
+      },
+      {
+        "text": "Reduce vehicle speed when driving in the rain",
+        "id": 3
+      },
+      {
+        "text": "All of the above",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "The two-second rule is used to determine",
+    "image": "",
+    "number": 195,
+    "answers": [
+      {
+        "text": "How fast they can react to obstacles",
+        "id": 1
+      },
+      {
+        "text": "How fast they are travelling",
+        "id": 2
+      },
+      {
+        "text": "How much gas you will save",
+        "id": 3
+      },
+      {
+        "text": "If they are following at a safe distance",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "When approaching a construction area, drivers should",
+    "image": "",
+    "number": 196,
+    "answers": [
+      {
+        "text": "Honk the horn a few times to let the workers know you are approaching",
+        "id": 1
+      },
+      {
+        "text": "Watch for children",
+        "id": 2
+      },
+      {
+        "text": "Slow down and yield the right-of-way",
+        "id": 3
+      },
+      {
+        "text": "Speed up to get out of the area quickly",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "When are broken white lines (dashes) used on streets and highways?",
+    "image": "",
+    "number": 197,
+    "answers": [
+      {
+        "text": "On a two way street",
+        "id": 1
+      },
+      {
+        "text": "When it is a no stopping zone",
+        "id": 2
+      },
+      {
+        "text": "When passing is permitted",
+        "id": 3
+      },
+      {
+        "text": "On a one way street or highway that has more than one lane of traffic moving in the same direction",
+        "id": 4
+      }
+    ],
+    "correct": 4
+  },
+  {
+    "question": "If you are approaching an intersection and the traffic lights are not working, you should",
+    "image": "",
+    "number": 198,
+    "answers": [
+      {
+        "text": "Yield to the traffic to your right",
+        "id": 1
+      },
+      {
+        "text": "Stop until no cars are passing and then go",
+        "id": 2
+      },
+      {
+        "text": "Treat it as a four way stop sign",
+        "id": 3
+      },
+      {
+        "text": "Slow down and proceed with caution",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "WHen approaching an intersection and you notice the roadway beyond the intersection is blocked with traffic, you should",
+    "image": "",
+    "number": 199,
+    "answers": [
+      {
+        "text": "Keep as close as possible to the car ahead",
+        "id": 1
+      },
+      {
+        "text": "Proceed slowly into the intersection until the traffic ahead moves on",
+        "id": 2
+      },
+      {
+        "text": "Stop before entering the intersection and wait until traffic ahead moves on",
+        "id": 3
+      },
+      {
+        "text": "Sound horn to warn cars ahead to move on",
+        "id": 4
+      }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Level one and level two drivers must have a blood alcohol level of zero when driving. New drivers caught drinking and driving wil lbe charged under the Criminal Code and will get how many days suspension?",
+    "image": "",
+    "number": 200,
+    "answers": [
+      {
+        "text": "30 days",
+        "id": 1
+      },
+      {
+        "text": "60 days",
+        "id": 2
+      },
+      {
+        "text": "90 days",
+        "id": 3
+      },
+      {
+        "text": "1 years",
+        "id": 4
+      }
+    ],
+    "correct": 1
   }
 ]
