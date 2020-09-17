@@ -9,6 +9,15 @@ const smallWindow = document.querySelector(".small-window");
 const allSections = document.querySelectorAll(".section");
 const submitButton = document.querySelector(".submit-btn");
 const answeredQuestions = document.querySelectorAll(".answered-question");
+const mixedContainer = document.querySelector(".mixed-container");
+const qnaContainer = document.querySelector(".qna-container");
+const brandName = document.querySelector(".brand-name");
+const returnBtn = document.querySelector(".return");
+const historyBtn = document.querySelector(".history-btn");
+const historyOverlay = document.querySelector(".history-overlay");
+const historyPopup = document.querySelector(".history-popup");
+const closeBtn = document.querySelector(".close-btn");
+const historyContainer = document.querySelector(".history-container");
 
 let allQuestions;
 let currentQuestion = 1;
@@ -16,6 +25,11 @@ let arrayOfNumbers;
 let userAnswers;
 let finalAnswersForAllQuestions;
 let tempNumForSmallWindow;
+
+let arrayOfNumbersFromLocal;
+let userAnswersFromLocal;
+let finalAnswersForAllQuestionsFromLocal;
+let datesFromLocal;
 
 startButton.addEventListener("click", () => {
   start();
@@ -40,9 +54,45 @@ numOfCurrent.addEventListener("click", () => {
 });
 
 submitButton.addEventListener("click", () => {
+  const previousAnswer = saveUserAnswer();
+  userAnswers[currentQuestion - 1] = previousAnswer;
   beginning.classList.add("hide");
   container.classList.add("hide");
   controlButtons.classList.add("hide");
+  mixedContainer.classList.remove("hide");
+  renderScore();
+  renderCorrectAnswers();
+  colorCorrectAndWrongAnswers();
+  saveLocalStorage();
+  loadLocalStorage();
+});
+
+const mainHome = () => {
+  beginning.classList.remove("hide");
+  container.classList.add("hide");
+  controlButtons.classList.add("hide");
+  mixedContainer.classList.add("hide");
+};
+
+brandName.addEventListener("click", mainHome);
+returnBtn.addEventListener("click", mainHome);
+
+historyBtn.addEventListener("click", () => {
+  historyOverlay.classList.add("active");
+  historyPopup.classList.add("active");
+  renderHistory();
+});
+
+closeBtn.addEventListener("click", () => {
+  historyOverlay.classList.remove("active");
+  historyPopup.classList.remove("active");
+});
+
+historyOverlay.addEventListener("click", (e) => {
+  if (e.target.classList.contains("history-overlay")) {
+    historyOverlay.classList.remove("active");
+    historyPopup.classList.remove("active");
+  }
 });
 
 const fetchData = async () => {
@@ -151,12 +201,24 @@ const displayQuestion = (num, current) => {
 
 const start = () => {
   arrayOfNumbers = [];
-  userAnswers = Array(40).fill(0);
+  finalAnswersForAllQuestions = [];
+  currentQuestion = 1;
+  userAnswers = Array(40).fill(1);
   beginning.classList.add("hide");
   container.classList.remove("hide");
   controlButtons.classList.remove("hide");
   arrayOfNumbers = generateArrayOfNumbers();
+  for (let i = 0; i < 40; i++) {
+    finalAnswersForAllQuestions.push(allQuestions[arrayOfNumbers[i]].correct);
+  }
   displayQuestion(arrayOfNumbers[0], currentQuestion);
+  for (let i = 0; i < 40; i++) {
+    answeredQuestions[i].innerText = "Not Answered";
+  }
+  putCheckFunction(1);
+  numOfCurrent.innerText = "1";
+  nextButton.classList.remove("hide");
+  submitButton.classList.add("hide");
 };
 
 const nextFunction = () => {
@@ -242,10 +304,165 @@ const updateSectionInSmallWindow = (num, previousQuestion) => {
   }
 };
 
+const renderScore = () => {
+  const yourAnsweredQuestion = document.querySelector(
+    ".your-answered-questions"
+  );
+  const yourCorrectAnswers = document.querySelector(".your-total-correct");
+  const yourScore = document.querySelector(".your-score");
+  const yourPercent = document.querySelector(".your-percent");
+  let answeredQuestions = 0;
+  let correctAnswers = 0;
+  for (let i = 0; i < 40; i++) {
+    if (userAnswers[i] !== 0) {
+      answeredQuestions++;
+    }
+    if (userAnswers[i] === finalAnswersForAllQuestions[i]) {
+      correctAnswers++;
+    }
+  }
+  yourAnsweredQuestion.innerText = answeredQuestions;
+  yourCorrectAnswers.innerText = correctAnswers;
+  const score = 0.25 * correctAnswers;
+  yourScore.innerText = score;
+  const percent = score * 10;
+  yourPercent.innerText = percent;
+};
+
+const renderCorrectAnswers = () => {
+  let script = "";
+  for (let i = 0; i < 40; i++) {
+    if (userAnswers[i] !== 0) {
+      script += `
+      <div class="qna-section">
+            <div class="question-num"  >
+              <h3>${i + 1}. </h3>
+              <h3>${allQuestions[arrayOfNumbers[i]].question}</h3>
+              <img src="${allQuestions[arrayOfNumbers[i]].image}" alt="" />
+            </div>
+            <h4>
+              You selected: ${
+                allQuestions[arrayOfNumbers[i]].answers[userAnswers[i] - 1].text
+              }.
+            </h4>
+            <h4>Correct answer: ${
+              allQuestions[arrayOfNumbers[i]].answers[
+                finalAnswersForAllQuestions[i] - 1
+              ].text
+            }</h4>
+      </div>
+      `;
+    } else {
+      script += `
+      <div class="qna-section">
+            <div class="question-num"  >
+              <h3>${i + 1}. </h3>
+              <h3>${allQuestions[arrayOfNumbers[i]].question}</h3>
+              <img src="${allQuestions[arrayOfNumbers[i]].image}" alt="" />
+            </div>
+            <h4>
+              You selected:
+            </h4>
+            <h4>Correct answer: ${
+              allQuestions[arrayOfNumbers[i]].answers[
+                finalAnswersForAllQuestions[i] - 1
+              ].text
+            }</h4>
+      </div>
+      `;
+    }
+  }
+  qnaContainer.innerHTML = script;
+};
+
+const colorCorrectAndWrongAnswers = () => {
+  const qnaSection = document.querySelectorAll(".qna-section");
+  for (let i = 0; i < 40; i++) {
+    if (userAnswers[i] === finalAnswersForAllQuestions[i]) {
+      qnaSection[i].children[1].style.color = "green";
+      qnaSection[i].children[2].style.color = "green";
+    } else {
+      qnaSection[i].children[1].style.color = "red";
+      qnaSection[i].children[2].style.color = "red";
+    }
+  }
+};
+
+const loadLocalStorage = () => {
+  if (localStorage.getItem("userAnswers") === null) {
+    arrayOfNumbersFromLocal = [];
+    userAnswersFromLocal = [];
+    finalAnswersForAllQuestionsFromLocal = [];
+    datesFromLocal = [];
+  } else {
+    arrayOfNumbersFromLocal = JSON.parse(
+      localStorage.getItem("arrayOfNumbers")
+    );
+    userAnswersFromLocal = JSON.parse(localStorage.getItem("userAnswers"));
+    finalAnswersForAllQuestionsFromLocal = JSON.parse(
+      localStorage.getItem("finalAnswersForAllQuestions")
+    );
+    datesFromLocal = JSON.parse(localStorage.getItem("dates"));
+  }
+};
+
+const saveLocalStorage = () => {
+  userAnswersFromLocal.push(userAnswers);
+  finalAnswersForAllQuestionsFromLocal.push(finalAnswersForAllQuestions);
+  arrayOfNumbersFromLocal.push(arrayOfNumbers);
+  datesFromLocal.push(getCurrentDate());
+  localStorage.setItem("userAnswers", JSON.stringify(userAnswersFromLocal));
+  localStorage.setItem(
+    "finalAnswersForAllQuestions",
+    JSON.stringify(finalAnswersForAllQuestionsFromLocal)
+  );
+  localStorage.setItem(
+    "arrayOfNumbers",
+    JSON.stringify(arrayOfNumbersFromLocal)
+  );
+  localStorage.setItem("dates", JSON.stringify(datesFromLocal));
+};
+
+const getCurrentDate = () => {
+  let today = new Date();
+  let dd = String(today.getDate()).padStart(2, "0");
+  let mm = String(today.getMonth() + 1).padStart(2, "0");
+  let yyyy = today.getFullYear();
+
+  today = yyyy + "/" + mm + "/" + dd;
+  return today;
+};
+
+const renderHistory = () => {
+  let script = "";
+  if (userAnswersFromLocal.length >= 1) {
+    for (let i = 0; i < userAnswersFromLocal.length; i++) {
+      let correct = 0;
+      for (let j = 0; j < 40; j++) {
+        if (
+          userAnswersFromLocal[i][j] ===
+          finalAnswersForAllQuestionsFromLocal[i][j]
+        )
+          correct++;
+      }
+      const percent = ((correct / 40) * 100).toFixed(2);
+      script += `
+        <div class="history">
+          <h5>${datesFromLocal[i]}</h5>
+          <h5>${percent}%</h5>
+          <button class="select-history">Select</button>
+        </div>
+      `;
+    }
+  }
+  historyContainer.innerHTML = script;
+};
+
 const app = () => {
   fetchData().then((questions) => {
     allQuestions = questions;
   });
+  loadLocalStorage();
 };
 
 app();

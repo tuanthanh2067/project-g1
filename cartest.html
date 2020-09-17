@@ -8,18 +8,23 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./cartest.css" />
     <script src="./cartest.js" defer></script>
   </head>
   <body>
-    <div class="main">
-      <div class="header">
-        <div class="brand-name">
-          <span id="mock-brand-name">Mock</span>
-          <span id="test-brand-name">Test</span>
-        </div>
+    <div class="header">
+      <div class="brand-name">
+        <span id="mock-brand-name">Mock</span>
+        <span id="test-brand-name">Test</span>
       </div>
-
+    </div>
+    <div class="main">
       <div class="beginning">
         <button class="start-btn">Start</button>
         <button class="history-btn">History</button>
@@ -226,7 +231,84 @@
         </div>
       </div>
 
-      <div class="mixed-container"></div>
+      <div class="mixed-container hide">
+        <div class="mark-container">
+          <div class="answered-question-container">
+            <h2>Answered Question</h2>
+            <h3><span class="your-answered-questions">40</span></h3>
+          </div>
+          <div class="correct-answer-container">
+            <h2>Correct Answers</h2>
+            <h3><span class="your-total-correct">35</span></h3>
+          </div>
+          <div class="score-container">
+            <h2>Score</h2>
+            <h3><span class="your-score">8.8</span>/10</h3>
+          </div>
+          <div class="percent-container">
+            <h2>Percent</h2>
+            <h3><span class="your-percent">88</span>%</h3>
+          </div>
+        </div>
+        <div class="qna-container">
+          <div class="qna-section">
+            <div class="question-num">
+              <h3>1.</h3>
+              <h3>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet</h3>
+            </div>
+            <h4 style="color: red">
+              You selected: Lorem ipsum dolor sit amet consectetur adipisicing
+              elit.
+            </h4>
+            <h4 style="color: green">Lorem ipsum dolor sit amet consectetur</h4>
+          </div>
+          <div class="qna-section">
+            <div class="question-num">
+              <h3>2.</h3>
+              <img src="./quiz-images/1.JPG" alt="" />
+            </div>
+            <h4 style="color: red">You selected: Lorem ipsum dolor sit.</h4>
+            <h4 style="color: green">
+              Correct answer: Lorem ipsum dolor sit amet consectetur.
+            </h4>
+          </div>
+        </div>
+        <div class="return">
+          <button class="return-btn">
+            <i class="fas fa-exchange-alt"></i>
+          </button>
+          <h3>Return to home</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="history-overlay">
+      <div class="history-popup">
+        <button class="close-btn">X</button>
+        <h4>Your History</h4>
+        <div class="history-container">
+          <div class="history">
+            <h5>2020/08/25</h5>
+            <h5>78%</h5>
+            <button class="select-history">Select</button>
+          </div>
+          <div class="history">
+            <h5>2020/08/25</h5>
+            <h5>78%</h5>
+            <button class="select-history">Select</button>
+          </div>
+          <div class="history">
+            <h5>2020/08/25</h5>
+            <h5>78%</h5>
+            <button class="select-history">Select</button>
+          </div>
+          <div class="history">
+            <h5>2020/08/25</h5>
+            <h5>78%</h5>
+            <button class="select-history">Select</button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
