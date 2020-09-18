@@ -221,13 +221,20 @@ i {
   font-weight: normal;
 }
 
+.item2 {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .item2 div {
   display: flex;
 }
 
-.table {
-  margin: 0em 0em;
-}
+/* .table {
+  margin: 5em 0em;
+} */
 
 .description {
   display: flex;
@@ -398,9 +405,9 @@ i {
   .vehicles-desc {
     font-size: 0.8rem;
   }
-  .table {
+  /* .table {
     margin: 50px 0px;
-  }
+  } */
   .table h3 {
     font-size: 1.125rem;
   }
