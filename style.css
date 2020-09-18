@@ -375,9 +375,6 @@ i {
   .vehicles-desc {
     font-size: 0.95rem;
   }
-  .table {
-    margin: 50px 0px;
-  }
   .table h3 {
     font-size: 1.45rem;
   }
@@ -402,7 +399,7 @@ i {
     font-size: 0.8rem;
   }
   .table {
-    margin: 50px 0px;
+    margin: 0px 0px;
   }
   .table h3 {
     font-size: 1.125rem;
