@@ -9,7 +9,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: rgb(245, 245, 245);
-  overflow-x: hidden;
+  width: 100vw;
 }
 
 button {
@@ -88,7 +88,7 @@ i {
 
 .nav-links.active {
   transform: translateX(0%);
-  opacity: 1;
+  display: flex;
 }
 
 @keyframes navLink {
@@ -227,7 +227,7 @@ i {
 }
 
 .table {
-  margin: 5em 0em;
+  margin: 1em 0em;
 }
 
 .description {
@@ -354,7 +354,7 @@ i {
     width: 100%;
     transform: translateX(100%);
     transition: transform 0.4s ease-in-out;
-    opacity: 0;
+    display: none;
   }
   .nav-links a {
     color: white;
