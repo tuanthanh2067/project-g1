@@ -9,7 +9,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: rgb(245, 245, 245);
-  width: 100vw;
 }
 
 button {
@@ -227,7 +226,7 @@ i {
 }
 
 .table {
-  margin: 1em 0em;
+  margin: 5em 0em;
 }
 
 .description {
@@ -398,6 +397,9 @@ i {
   }
   .vehicles-desc {
     font-size: 0.8rem;
+  }
+  .table {
+    margin: 1em 0em;
   }
   .table h3 {
     font-size: 1.125rem;
