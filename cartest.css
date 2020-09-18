@@ -340,9 +340,8 @@ i {
 }
 
 .history-popup {
-  min-width: 30%;
+  width: 500px;
   height: 30%;
-  max-height: 30%;
   background: white;
   display: flex;
   flex-direction: column;

@@ -203,7 +203,7 @@ const start = () => {
   arrayOfNumbers = [];
   finalAnswersForAllQuestions = [];
   currentQuestion = 1;
-  userAnswers = Array(40).fill(1);
+  userAnswers = Array(40).fill(0);
   beginning.classList.add("hide");
   container.classList.remove("hide");
   controlButtons.classList.remove("hide");
@@ -450,12 +450,28 @@ const renderHistory = () => {
         <div class="history">
           <h5>${datesFromLocal[i]}</h5>
           <h5>${percent}%</h5>
-          <button class="select-history">Select</button>
+          <button class="select-history" data-id="${i}"onClick="renderHistoryPage(this)">Select</button>
         </div>
       `;
     }
   }
   historyContainer.innerHTML = script;
+};
+
+const renderHistoryPage = (event) => {
+  beginning.classList.add("hide");
+  container.classList.add("hide");
+  controlButtons.classList.add("hide");
+  historyOverlay.classList.remove("active");
+  historyPopup.classList.remove("active");
+  mixedContainer.classList.remove("hide");
+  const index = parseInt(event.dataset.id);
+  arrayOfNumbers = arrayOfNumbersFromLocal[index];
+  finalAnswersForAllQuestions = finalAnswersForAllQuestionsFromLocal[index];
+  userAnswers = userAnswersFromLocal[index];
+  renderScore();
+  renderCorrectAnswers();
+  colorCorrectAndWrongAnswers();
 };
 
 const app = () => {
