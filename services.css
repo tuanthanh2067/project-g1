@@ -71,3 +71,9 @@
   letter-spacing: 3.5px;
   pointer-events: none;
 }
+
+@media screen and (max-width: 500px) {
+  .block h4 {
+    font-size: 3rem;
+  }
+}
